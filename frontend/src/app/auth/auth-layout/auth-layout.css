@@ -1,0 +1,61 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  background-image: url('/assets/IMG/TelaFundo.png');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Pixelify Sans', monospace;
+}
+
+/* Caixa central */
+.caixa-auth {
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 100px;
+}
+
+/* Título */
+.titulo {
+  font-size: 70px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.input-pixel {
+  border: 2px solid #000 !important;
+  background: #d1d5d8 !important;
+  box-shadow: none !important;
+  font-family: inherit;
+}
+
+/* Botão */
+.botao {
+  margin-top: 15px;
+  padding: 10px;
+  background: #cbd5e1;
+  border: 2px solid #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 3px 3px #2e2e2e;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background: #aebbc8;
+}
+
+/* Link login/registro */
+.link-auth {
+  font-size: 18px;
+  margin-top: 10px;
+  display: block;
+  color: #000;
+}
+
+/* Ícone */
+.icone-usuario {
+  width: 90px;
+  margin: 0 auto 20px;
+  display: block;
+}

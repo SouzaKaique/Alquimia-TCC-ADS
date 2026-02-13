@@ -1,0 +1,10 @@
+.lab-bg {
+  background: url('/assets/img/FundoPrincipal.png') center / cover no-repeat;
+  font-family: 'Pixelify Sans', monospace;
+}
+
+.canvas-area {
+  width: 900px;
+  height: 600px;
+  background: transparent;
+}

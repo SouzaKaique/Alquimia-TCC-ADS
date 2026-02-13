@@ -1,0 +1,77 @@
+<app-auth-layout>
+  <div class="caixa-auth col-12 col-sm-10 col-md-8 col-lg-6">
+
+    <h1 class="titulo">Reagentes</h1>
+
+    <form (ngSubmit)="salvar()" #form="ngForm">
+
+      <div class="mb-2">
+        <input
+          type="text"
+          class="form-control input-pixel"
+          placeholder="Nome do reagente"
+          name="nome"
+          [(ngModel)]="nome"
+          required
+        />
+      </div>
+
+      <div class="mb-2">
+        <input
+          type="text"
+          class="form-control input-pixel"
+          placeholder="Fórmula química"
+          name="formula"
+          [(ngModel)]="formula"
+          required
+        />
+      </div>
+
+      <div class="mb-2">
+        <input
+          type="number"
+          class="form-control input-pixel"
+          placeholder="Quantidade"
+          name="quantidade"
+          [(ngModel)]="quantidade"
+          required
+        />
+      </div>
+
+      <div class="mb-2">
+        <select
+          class="form-control input-pixel"
+          name="unidade"
+          [(ngModel)]="unidade"
+          required
+        >
+          <option value="" disabled>Unidade</option>
+          <option value="g">Gramas (g)</option>
+          <option value="kg">Quilogramas (kg)</option>
+          <option value="ml">Mililitros (ml)</option>
+          <option value="l">Litros (L)</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <textarea
+          class="form-control input-pixel"
+          placeholder="Observações"
+          name="observacoes"
+          [(ngModel)]="observacoes"
+          rows="3"
+        ></textarea>
+      </div>
+
+      <button
+        type="submit"
+        class="botao w-100"
+        [disabled]="form.invalid"
+      >
+        Salvar Reagente
+      </button>
+
+    </form>
+
+  </div>
+</app-auth-layout>

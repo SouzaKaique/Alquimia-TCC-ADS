@@ -1,0 +1,94 @@
+<div class="container-fluid min-vh-100 d-flex flex-column lab-bg">
+
+  <!-- HEADER -->
+  <header class="d-flex align-items-center gap-2 p-4">
+    <img src="assets/img/user.png" width="32" alt="Usuário" />
+    <span class="fs-4 fw-bold"># User</span>
+  </header>
+
+  <!-- MAIN -->
+  <main class="flex-grow-1 d-flex gap-4 px-4">
+
+    <!-- PAINEL -->
+    <aside class="card border-dark shadow-sm" style="width: 260px">
+      <div class="card-body p-2">
+        <h6 class="text-center fw-bold mb-3">PAINEL DE SAIS</h6>
+
+        <button
+          class="btn btn-sm w-100 mb-1 btn-outline-danger"
+          (click)="aplicarReagente('#ff0000')">
+          Reagente Vermelho
+        </button>
+
+        <button
+          class="btn btn-sm w-100 mb-1 btn-outline-success"
+          (click)="aplicarReagente('#00ff00')">
+          Reagente Verde
+        </button>
+
+        <button
+          class="btn btn-sm w-100 mb-2 btn-outline-primary"
+          (click)="aplicarReagente('#0000ff')">
+          Reagente Azul
+        </button>
+
+        <div class="badge bg-warning text-dark w-100 mb-1">Na⁺</div>
+        <div class="badge bg-secondary w-100 mb-2">K⁺</div>
+
+        <a routerLink="/reagentes" class="btn btn-light w-100 border">
+          + Mais
+        </a>
+      </div>
+    </aside>
+
+    <!-- CANVAS -->
+    <section class="flex-grow-1 d-flex justify-content-center">
+      <div id="labCanvas" class="canvas-area"></div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="d-flex justify-content-between align-items-center p-3 bg-dark text-light border-top border-4 border-dark">
+
+    <button class="btn btn-light d-flex align-items-center gap-2">
+      <img src="assets/img/elernmeyer.png" width="24" />
+      Laboratório
+    </button>
+
+    <button class="btn btn-light d-flex align-items-center gap-2">
+      <img src="assets/img/salvar.png" width="24" />
+      Salvar Progresso
+    </button>
+
+  </footer>
+
+</div>
+
+<!-- MENU LATERAL -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="menuLateral">
+  <div class="offcanvas-header bg-light border-bottom border-3 border-dark">
+    <div class="text-center w-100">
+      <img src="assets/img/user.png" width="48" />
+      <h6 class="mt-2 mb-0">#User</h6>
+      <small>user123@gmail.com</small>
+    </div>
+  </div>
+
+  <div class="offcanvas-body bg-dark text-light">
+    <ul class="list-unstyled">
+      <li class="mb-3">
+        <button class="btn btn-outline-light w-100">Configurações</button>
+      </li>
+      <li class="mb-3">
+        <button class="btn btn-outline-light w-100">Estatísticas</button>
+      </li>
+      <li class="mb-3">
+        <button class="btn btn-outline-light w-100">Amigos</button>
+      </li>
+      <li>
+        <button class="btn btn-outline-danger w-100">Sair</button>
+      </li>
+    </ul>
+  </div>
+</div>

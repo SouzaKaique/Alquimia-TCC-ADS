@@ -1,0 +1,23 @@
+.reagentes-bg {
+  background-color: #6d7b7c;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.cor {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+}
+
+.cor-grande {
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  border: 3px solid #333;
+}
+
+.am-blue { background: #2196F3; }
+.am-orange { background: #FF9800; }
+.am-red { background: #F44336; }
+.am-yellow { background: #FFEB3B; }
+.am-purple { background: #9C27B0; }
