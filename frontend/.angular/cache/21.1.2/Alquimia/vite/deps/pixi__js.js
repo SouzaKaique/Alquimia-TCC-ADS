@@ -34,7 +34,7 @@ import {
   gpuUploadCompressedTextureResource,
   gpuUploadImageResource,
   gpuUploadVideoResource
-} from "./chunk-KXLUZBCR.js";
+} from "./chunk-DWMO4GJJ.js";
 import {
   BUFFER_TYPE,
   GL_FORMATS,
@@ -101,7 +101,7 @@ import {
   scaleModeToGlFilter,
   unpremultiplyAlpha,
   wrapModeToGlAddress
-} from "./chunk-RU32CEYI.js";
+} from "./chunk-5OGTKIFI.js";
 import {
   BufferResource,
   GpuStencilModesToPixi,
@@ -116,7 +116,7 @@ import {
   uboSyncFunctionsSTD40,
   uboSyncFunctionsWGSL,
   uniformParsers
-} from "./chunk-ESE2K3EU.js";
+} from "./chunk-OFJS47PC.js";
 import {
   CanvasBatchAdaptor,
   CanvasColorMaskPipe,
@@ -136,7 +136,7 @@ import {
   canUseNewCanvasBlendModes,
   canvasUtils,
   mapCanvasBlendModesToPixi
-} from "./chunk-3KYN537X.js";
+} from "./chunk-RGKOJ7YY.js";
 import {
   AbstractRenderer,
   AlphaMaskPipe,
@@ -192,7 +192,7 @@ import {
   updateTransformAndChildren,
   validateRenderables,
   vertex as vertex2
-} from "./chunk-RONWCF6A.js";
+} from "./chunk-ZR5ILELT.js";
 import {
   AbstractBitmapFont,
   BREAKING_SPACES,
@@ -225,11 +225,11 @@ import {
   trimRight,
   wordWrap,
   wordWrapTaggedLines
-} from "./chunk-ELODQHMK.js";
+} from "./chunk-HUWY4LEB.js";
 import {
   CanvasPool,
   CanvasPoolClass
-} from "./chunk-74NCQGXN.js";
+} from "./chunk-I5Y3G52J.js";
 import {
   BatchableGraphics,
   FillGradient,
@@ -279,10 +279,10 @@ import {
   toStrokeStyle,
   transformVertices,
   triangulateWithHoles
-} from "./chunk-27VJBRYU.js";
+} from "./chunk-5QCB3F74.js";
 import {
   getTextureBatchBindGroup
-} from "./chunk-DBIT3LC4.js";
+} from "./chunk-AK52TMGH.js";
 import {
   BLEND_TO_NPM,
   Batch,
@@ -322,7 +322,7 @@ import {
   roundPixelsBitGl,
   vertexGPUTemplate,
   vertexGlTemplate
-} from "./chunk-THMGQ26A.js";
+} from "./chunk-DP73QS47.js";
 import {
   AccessibilitySystem,
   CanvasObserver,
@@ -336,7 +336,7 @@ import {
   FederatedWheelEvent,
   accessibilityTarget,
   isMobile
-} from "./chunk-CAUDOJYU.js";
+} from "./chunk-IDNXEFWF.js";
 import {
   AlphaMask,
   ColorMask,
@@ -366,7 +366,7 @@ import {
   spritesheetAsset,
   textureFrom,
   vertex
-} from "./chunk-RQFMECCN.js";
+} from "./chunk-DVBCBV3B.js";
 import {
   CanvasSource,
   Container,
@@ -411,11 +411,11 @@ import {
   toLocalGlobalMixin,
   updateQuadBounds,
   updateTransformBackwards
-} from "./chunk-XI24MKIH.js";
+} from "./chunk-26XH5DGF.js";
 import {
   Cache,
   convertToList
-} from "./chunk-ZL47U3LJ.js";
+} from "./chunk-JRCP5MII.js";
 import {
   Circle,
   Ellipse,
@@ -423,7 +423,7 @@ import {
   Polygon,
   RoundedRectangle,
   squaredDistanceToLineSegment
-} from "./chunk-LLHWWRMG.js";
+} from "./chunk-OQVIRC5O.js";
 import {
   BigPool,
   BindGroup,
@@ -491,7 +491,7 @@ import {
   v8_0_0,
   v8_3_4,
   warn
-} from "./chunk-Z6PQENDU.js";
+} from "./chunk-FCT5CJUV.js";
 import {
   __commonJS,
   __objRest,
@@ -500,9 +500,9 @@ import {
   __toESM
 } from "./chunk-46DXP6YY.js";
 
-// ../../node_modules/@xmldom/xmldom/lib/conventions.js
+// ../../../node_modules/@xmldom/xmldom/lib/conventions.js
 var require_conventions = __commonJS({
-  "../../node_modules/@xmldom/xmldom/lib/conventions.js"(exports) {
+  "../../../node_modules/@xmldom/xmldom/lib/conventions.js"(exports) {
     "use strict";
     function find(list, predicate, ac) {
       if (ac === void 0) {
@@ -639,9 +639,9 @@ var require_conventions = __commonJS({
   }
 });
 
-// ../../node_modules/@xmldom/xmldom/lib/dom.js
+// ../../../node_modules/@xmldom/xmldom/lib/dom.js
 var require_dom = __commonJS({
-  "../../node_modules/@xmldom/xmldom/lib/dom.js"(exports) {
+  "../../../node_modules/@xmldom/xmldom/lib/dom.js"(exports) {
     var conventions = require_conventions();
     var find = conventions.find;
     var NAMESPACE = conventions.NAMESPACE;
@@ -2074,9 +2074,9 @@ var require_dom = __commonJS({
   }
 });
 
-// ../../node_modules/@xmldom/xmldom/lib/entities.js
+// ../../../node_modules/@xmldom/xmldom/lib/entities.js
 var require_entities = __commonJS({
-  "../../node_modules/@xmldom/xmldom/lib/entities.js"(exports) {
+  "../../../node_modules/@xmldom/xmldom/lib/entities.js"(exports) {
     "use strict";
     var freeze = require_conventions().freeze;
     exports.XML_ENTITIES = freeze({
@@ -4217,9 +4217,9 @@ var require_entities = __commonJS({
   }
 });
 
-// ../../node_modules/@xmldom/xmldom/lib/sax.js
+// ../../../node_modules/@xmldom/xmldom/lib/sax.js
 var require_sax = __commonJS({
-  "../../node_modules/@xmldom/xmldom/lib/sax.js"(exports) {
+  "../../../node_modules/@xmldom/xmldom/lib/sax.js"(exports) {
     var NAMESPACE = require_conventions().NAMESPACE;
     var nameStartChar = /[A-Z_a-z\xC0-\xD6\xD8-\xF6\u00F8-\u02FF\u0370-\u037D\u037F-\u1FFF\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD]/;
     var nameChar = new RegExp("[\\-\\.0-9" + nameStartChar.source.slice(1, -1) + "\\u00B7\\u0300-\\u036F\\u203F-\\u2040]");
@@ -4806,9 +4806,9 @@ var require_sax = __commonJS({
   }
 });
 
-// ../../node_modules/@xmldom/xmldom/lib/dom-parser.js
+// ../../../node_modules/@xmldom/xmldom/lib/dom-parser.js
 var require_dom_parser = __commonJS({
-  "../../node_modules/@xmldom/xmldom/lib/dom-parser.js"(exports) {
+  "../../../node_modules/@xmldom/xmldom/lib/dom-parser.js"(exports) {
     var conventions = require_conventions();
     var dom = require_dom();
     var entities = require_entities();
@@ -5022,9 +5022,9 @@ var require_dom_parser = __commonJS({
   }
 });
 
-// ../../node_modules/@xmldom/xmldom/lib/index.js
+// ../../../node_modules/@xmldom/xmldom/lib/index.js
 var require_lib = __commonJS({
-  "../../node_modules/@xmldom/xmldom/lib/index.js"(exports) {
+  "../../../node_modules/@xmldom/xmldom/lib/index.js"(exports) {
     var dom = require_dom();
     exports.DOMImplementation = dom.DOMImplementation;
     exports.XMLSerializer = dom.XMLSerializer;
@@ -5032,7 +5032,7 @@ var require_lib = __commonJS({
   }
 });
 
-// ../../node_modules/pixi.js/lib/environment-browser/browserExt.mjs
+// ../../../node_modules/pixi.js/lib/environment-browser/browserExt.mjs
 var browserExt = {
   extension: {
     type: ExtensionType.Environment,
@@ -5041,11 +5041,11 @@ var browserExt = {
   },
   test: () => true,
   load: async () => {
-    await import("./browserAll-BQGOWDJ3.js");
+    await import("./browserAll-2NW7AT4C.js");
   }
 };
 
-// ../../node_modules/pixi.js/lib/environment-webworker/webworkerExt.mjs
+// ../../../node_modules/pixi.js/lib/environment-webworker/webworkerExt.mjs
 var webworkerExt = {
   extension: {
     type: ExtensionType.Environment,
@@ -5054,20 +5054,20 @@ var webworkerExt = {
   },
   test: () => typeof self !== "undefined" && self.WorkerGlobalScope !== void 0,
   load: async () => {
-    await import("./webworkerAll-J3M66P37.js");
+    await import("./webworkerAll-5CUROOH3.js");
   }
 };
 
-// ../../node_modules/pixi.js/lib/filters/blend-modes/blend-template.frag.mjs
+// ../../../node_modules/pixi.js/lib/filters/blend-modes/blend-template.frag.mjs
 var blendTemplateFrag = "\nin vec2 vTextureCoord;\nin vec4 vColor;\n\nout vec4 finalColor;\n\nuniform float uBlend;\n\nuniform sampler2D uTexture;\nuniform sampler2D uBackTexture;\n\n{FUNCTIONS}\n\nvoid main()\n{ \n    vec4 back = texture(uBackTexture, vTextureCoord);\n    vec4 front = texture(uTexture, vTextureCoord);\n    float blendedAlpha = front.a + back.a * (1.0 - front.a);\n    \n    {MAIN}\n}\n";
 
-// ../../node_modules/pixi.js/lib/filters/blend-modes/blend-template.vert.mjs
+// ../../../node_modules/pixi.js/lib/filters/blend-modes/blend-template.vert.mjs
 var blendTemplateVert = "in vec2 aPosition;\nout vec2 vTextureCoord;\nout vec2 backgroundUv;\n\nuniform vec4 uInputSize;\nuniform vec4 uOutputFrame;\nuniform vec4 uOutputTexture;\n\nvec4 filterVertexPosition( void )\n{\n    vec2 position = aPosition * uOutputFrame.zw + uOutputFrame.xy;\n    \n    position.x = position.x * (2.0 / uOutputTexture.x) - 1.0;\n    position.y = position.y * (2.0*uOutputTexture.z / uOutputTexture.y) - uOutputTexture.z;\n\n    return vec4(position, 0.0, 1.0);\n}\n\nvec2 filterTextureCoord( void )\n{\n    return aPosition * (uOutputFrame.zw * uInputSize.zw);\n}\n\nvoid main(void)\n{\n    gl_Position = filterVertexPosition();\n    vTextureCoord = filterTextureCoord();\n}\n";
 
-// ../../node_modules/pixi.js/lib/filters/blend-modes/blend-template.wgsl.mjs
+// ../../../node_modules/pixi.js/lib/filters/blend-modes/blend-template.wgsl.mjs
 var blendTemplate = "\nstruct GlobalFilterUniforms {\n  uInputSize:vec4<f32>,\n  uInputPixel:vec4<f32>,\n  uInputClamp:vec4<f32>,\n  uOutputFrame:vec4<f32>,\n  uGlobalFrame:vec4<f32>,\n  uOutputTexture:vec4<f32>,\n};\n\nstruct BlendUniforms {\n  uBlend:f32,\n};\n\n@group(0) @binding(0) var<uniform> gfu: GlobalFilterUniforms;\n@group(0) @binding(1) var uTexture: texture_2d<f32>;\n@group(0) @binding(2) var uSampler : sampler;\n@group(0) @binding(3) var uBackTexture: texture_2d<f32>;\n\n@group(1) @binding(0) var<uniform> blendUniforms : BlendUniforms;\n\n\nstruct VSOutput {\n    @builtin(position) position: vec4<f32>,\n    @location(0) uv : vec2<f32>\n  };\n\nfn filterVertexPosition(aPosition:vec2<f32>) -> vec4<f32>\n{\n    var position = aPosition * gfu.uOutputFrame.zw + gfu.uOutputFrame.xy;\n\n    position.x = position.x * (2.0 / gfu.uOutputTexture.x) - 1.0;\n    position.y = position.y * (2.0*gfu.uOutputTexture.z / gfu.uOutputTexture.y) - gfu.uOutputTexture.z;\n\n    return vec4(position, 0.0, 1.0);\n}\n\nfn filterTextureCoord( aPosition:vec2<f32> ) -> vec2<f32>\n{\n    return aPosition * (gfu.uOutputFrame.zw * gfu.uInputSize.zw);\n}\n\nfn globalTextureCoord( aPosition:vec2<f32> ) -> vec2<f32>\n{\n  return  (aPosition.xy / gfu.uGlobalFrame.zw) + (gfu.uGlobalFrame.xy / gfu.uGlobalFrame.zw);  \n}\n  \n@vertex\nfn mainVertex(\n  @location(0) aPosition : vec2<f32>, \n) -> VSOutput {\n  return VSOutput(\n   filterVertexPosition(aPosition),\n   filterTextureCoord(aPosition)\n  );\n}\n\n{FUNCTIONS}\n\n@fragment\nfn mainFragment(\n  @location(0) uv: vec2<f32>\n) -> @location(0) vec4<f32> {\n\n\n   var back =  textureSample(uBackTexture, uSampler, uv);\n   var front = textureSample(uTexture, uSampler, uv);\n   var blendedAlpha = front.a + back.a * (1.0 - front.a);\n   \n   var out = vec4<f32>(0.0,0.0,0.0,0.0);\n\n   {MAIN}\n\n   return out;\n}";
 
-// ../../node_modules/pixi.js/lib/filters/blend-modes/BlendModeFilter.mjs
+// ../../../node_modules/pixi.js/lib/filters/blend-modes/BlendModeFilter.mjs
 var BlendModeFilter = class extends Filter {
   constructor(options) {
     const gpuOptions = options.gpu;
@@ -5110,7 +5110,7 @@ function compileBlendModeShader(options) {
   return source8.replace("{FUNCTIONS}", functions).replace("{MAIN}", main);
 }
 
-// ../../node_modules/pixi.js/lib/filters/blend-modes/hls/GLhls.mjs
+// ../../../node_modules/pixi.js/lib/filters/blend-modes/hls/GLhls.mjs
 var hslgl = `
 	float getLuminosity(vec3 c) {
 		return 0.3 * c.r + 0.59 * c.g + 0.11 * c.b;
@@ -5192,7 +5192,7 @@ var hslgl = `
 	}
     `;
 
-// ../../node_modules/pixi.js/lib/filters/blend-modes/hls/GPUhls.mjs
+// ../../../node_modules/pixi.js/lib/filters/blend-modes/hls/GPUhls.mjs
 var hslgpu = `
 	fn getLuminosity(c: vec3<f32>) -> f32
 	{
@@ -5292,7 +5292,7 @@ var hslgpu = `
 	}
 	`;
 
-// ../../node_modules/pixi.js/lib/advanced-blend-modes/ColorBlend.mjs
+// ../../../node_modules/pixi.js/lib/advanced-blend-modes/ColorBlend.mjs
 var ColorBlend = class extends BlendModeFilter {
   constructor() {
     super({
@@ -5330,7 +5330,7 @@ ColorBlend.extension = {
   type: ExtensionType.BlendMode
 };
 
-// ../../node_modules/pixi.js/lib/advanced-blend-modes/ColorBurnBlend.mjs
+// ../../../node_modules/pixi.js/lib/advanced-blend-modes/ColorBurnBlend.mjs
 var ColorBurnBlend = class extends BlendModeFilter {
   constructor() {
     super({
@@ -5386,7 +5386,7 @@ ColorBurnBlend.extension = {
   type: ExtensionType.BlendMode
 };
 
-// ../../node_modules/pixi.js/lib/advanced-blend-modes/ColorDodgeBlend.mjs
+// ../../../node_modules/pixi.js/lib/advanced-blend-modes/ColorDodgeBlend.mjs
 var ColorDodgeBlend = class extends BlendModeFilter {
   constructor() {
     super({
@@ -5442,7 +5442,7 @@ ColorDodgeBlend.extension = {
   type: ExtensionType.BlendMode
 };
 
-// ../../node_modules/pixi.js/lib/advanced-blend-modes/DarkenBlend.mjs
+// ../../../node_modules/pixi.js/lib/advanced-blend-modes/DarkenBlend.mjs
 var DarkenBlend = class extends BlendModeFilter {
   constructor() {
     super({
@@ -5476,7 +5476,7 @@ DarkenBlend.extension = {
   type: ExtensionType.BlendMode
 };
 
-// ../../node_modules/pixi.js/lib/advanced-blend-modes/DifferenceBlend.mjs
+// ../../../node_modules/pixi.js/lib/advanced-blend-modes/DifferenceBlend.mjs
 var DifferenceBlend = class extends BlendModeFilter {
   constructor() {
     super({
@@ -5510,7 +5510,7 @@ DifferenceBlend.extension = {
   type: ExtensionType.BlendMode
 };
 
-// ../../node_modules/pixi.js/lib/advanced-blend-modes/DivideBlend.mjs
+// ../../../node_modules/pixi.js/lib/advanced-blend-modes/DivideBlend.mjs
 var DivideBlend = class extends BlendModeFilter {
   constructor() {
     super({
@@ -5565,7 +5565,7 @@ DivideBlend.extension = {
   type: ExtensionType.BlendMode
 };
 
-// ../../node_modules/pixi.js/lib/advanced-blend-modes/ExclusionBlend.mjs
+// ../../../node_modules/pixi.js/lib/advanced-blend-modes/ExclusionBlend.mjs
 var ExclusionBlend = class extends BlendModeFilter {
   constructor() {
     super({
@@ -5609,7 +5609,7 @@ ExclusionBlend.extension = {
   type: ExtensionType.BlendMode
 };
 
-// ../../node_modules/pixi.js/lib/advanced-blend-modes/HardLightBlend.mjs
+// ../../../node_modules/pixi.js/lib/advanced-blend-modes/HardLightBlend.mjs
 var HardLightBlend = class extends BlendModeFilter {
   constructor() {
     super({
@@ -5664,7 +5664,7 @@ HardLightBlend.extension = {
   type: ExtensionType.BlendMode
 };
 
-// ../../node_modules/pixi.js/lib/advanced-blend-modes/HardMixBlend.mjs
+// ../../../node_modules/pixi.js/lib/advanced-blend-modes/HardMixBlend.mjs
 var HardMixBlend = class extends BlendModeFilter {
   constructor() {
     super({
@@ -5718,7 +5718,7 @@ HardMixBlend.extension = {
   type: ExtensionType.BlendMode
 };
 
-// ../../node_modules/pixi.js/lib/advanced-blend-modes/LightenBlend.mjs
+// ../../../node_modules/pixi.js/lib/advanced-blend-modes/LightenBlend.mjs
 var LightenBlend = class extends BlendModeFilter {
   constructor() {
     super({
@@ -5752,7 +5752,7 @@ LightenBlend.extension = {
   type: ExtensionType.BlendMode
 };
 
-// ../../node_modules/pixi.js/lib/advanced-blend-modes/LinearBurnBlend.mjs
+// ../../../node_modules/pixi.js/lib/advanced-blend-modes/LinearBurnBlend.mjs
 var LinearBurnBlend = class extends BlendModeFilter {
   constructor() {
     super({
@@ -5808,7 +5808,7 @@ LinearBurnBlend.extension = {
   type: ExtensionType.BlendMode
 };
 
-// ../../node_modules/pixi.js/lib/advanced-blend-modes/LinearDodgeBlend.mjs
+// ../../../node_modules/pixi.js/lib/advanced-blend-modes/LinearDodgeBlend.mjs
 var LinearDodgeBlend = class extends BlendModeFilter {
   constructor() {
     super({
@@ -5861,7 +5861,7 @@ LinearDodgeBlend.extension = {
   type: ExtensionType.BlendMode
 };
 
-// ../../node_modules/pixi.js/lib/advanced-blend-modes/LinearLightBlend.mjs
+// ../../../node_modules/pixi.js/lib/advanced-blend-modes/LinearLightBlend.mjs
 var LinearLightBlend = class extends BlendModeFilter {
   constructor() {
     super({
@@ -5933,7 +5933,7 @@ LinearLightBlend.extension = {
   type: ExtensionType.BlendMode
 };
 
-// ../../node_modules/pixi.js/lib/advanced-blend-modes/LuminosityBlend.mjs
+// ../../../node_modules/pixi.js/lib/advanced-blend-modes/LuminosityBlend.mjs
 var LuminosityBlend = class extends BlendModeFilter {
   constructor() {
     super({
@@ -5973,7 +5973,7 @@ LuminosityBlend.extension = {
   type: ExtensionType.BlendMode
 };
 
-// ../../node_modules/pixi.js/lib/advanced-blend-modes/NegationBlend.mjs
+// ../../../node_modules/pixi.js/lib/advanced-blend-modes/NegationBlend.mjs
 var NegationBlend = class extends BlendModeFilter {
   constructor() {
     super({
@@ -6017,7 +6017,7 @@ NegationBlend.extension = {
   type: ExtensionType.BlendMode
 };
 
-// ../../node_modules/pixi.js/lib/advanced-blend-modes/OverlayBlend.mjs
+// ../../../node_modules/pixi.js/lib/advanced-blend-modes/OverlayBlend.mjs
 var OverlayBlend = class extends BlendModeFilter {
   constructor() {
     super({
@@ -6073,7 +6073,7 @@ OverlayBlend.extension = {
   type: ExtensionType.BlendMode
 };
 
-// ../../node_modules/pixi.js/lib/advanced-blend-modes/PinLightBlend.mjs
+// ../../../node_modules/pixi.js/lib/advanced-blend-modes/PinLightBlend.mjs
 var PinLightBlend = class extends BlendModeFilter {
   constructor() {
     super({
@@ -6129,7 +6129,7 @@ PinLightBlend.extension = {
   type: ExtensionType.BlendMode
 };
 
-// ../../node_modules/pixi.js/lib/advanced-blend-modes/SaturationBlend.mjs
+// ../../../node_modules/pixi.js/lib/advanced-blend-modes/SaturationBlend.mjs
 var SaturationBlend = class extends BlendModeFilter {
   constructor() {
     super({
@@ -6169,7 +6169,7 @@ SaturationBlend.extension = {
   type: ExtensionType.BlendMode
 };
 
-// ../../node_modules/pixi.js/lib/advanced-blend-modes/SoftLightBlend.mjs
+// ../../../node_modules/pixi.js/lib/advanced-blend-modes/SoftLightBlend.mjs
 var SoftLightBlend = class extends BlendModeFilter {
   constructor() {
     super({
@@ -6225,7 +6225,7 @@ SoftLightBlend.extension = {
   type: ExtensionType.BlendMode
 };
 
-// ../../node_modules/pixi.js/lib/advanced-blend-modes/SubtractBlend.mjs
+// ../../../node_modules/pixi.js/lib/advanced-blend-modes/SubtractBlend.mjs
 var SubtractBlend = class extends BlendModeFilter {
   constructor() {
     super({
@@ -6281,7 +6281,7 @@ SubtractBlend.extension = {
   type: ExtensionType.BlendMode
 };
 
-// ../../node_modules/pixi.js/lib/advanced-blend-modes/VividLightBlend.mjs
+// ../../../node_modules/pixi.js/lib/advanced-blend-modes/VividLightBlend.mjs
 var VividLightBlend = class extends BlendModeFilter {
   constructor() {
     super({
@@ -6357,7 +6357,7 @@ VividLightBlend.extension = {
   type: ExtensionType.BlendMode
 };
 
-// ../../node_modules/pixi.js/lib/utils/browser/isWebGLSupported.mjs
+// ../../../node_modules/pixi.js/lib/utils/browser/isWebGLSupported.mjs
 var _isWebGLSupported;
 function isWebGLSupported(failIfMajorPerformanceCaveat) {
   if (_isWebGLSupported !== void 0) return _isWebGLSupported;
@@ -6388,7 +6388,7 @@ function isWebGLSupported(failIfMajorPerformanceCaveat) {
   return _isWebGLSupported;
 }
 
-// ../../node_modules/pixi.js/lib/utils/browser/isWebGPUSupported.mjs
+// ../../../node_modules/pixi.js/lib/utils/browser/isWebGPUSupported.mjs
 var _isWebGPUSupported;
 async function isWebGPUSupported(options = {}) {
   if (_isWebGPUSupported !== void 0) return _isWebGPUSupported;
@@ -6408,7 +6408,7 @@ async function isWebGPUSupported(options = {}) {
   return _isWebGPUSupported;
 }
 
-// ../../node_modules/pixi.js/lib/rendering/renderers/autoDetectRenderer.mjs
+// ../../../node_modules/pixi.js/lib/rendering/renderers/autoDetectRenderer.mjs
 var renderPriority = ["webgl", "webgpu", "canvas"];
 async function autoDetectRenderer(options) {
   let preferredOrder = [];
@@ -6427,19 +6427,19 @@ async function autoDetectRenderer(options) {
   for (let i = 0; i < preferredOrder.length; i++) {
     const rendererType = preferredOrder[i];
     if (rendererType === "webgpu" && await isWebGPUSupported()) {
-      const { WebGPURenderer: WebGPURenderer2 } = await import("./WebGPURenderer-R5G66Q4Q.js");
+      const { WebGPURenderer: WebGPURenderer2 } = await import("./WebGPURenderer-OEIFVQAP.js");
       RendererClass = WebGPURenderer2;
       finalOptions = __spreadValues(__spreadValues({}, options), options.webgpu);
       break;
     } else if (rendererType === "webgl" && isWebGLSupported(
       options.failIfMajorPerformanceCaveat ?? AbstractRenderer.defaultOptions.failIfMajorPerformanceCaveat
     )) {
-      const { WebGLRenderer: WebGLRenderer2 } = await import("./WebGLRenderer-7HOLVDSR.js");
+      const { WebGLRenderer: WebGLRenderer2 } = await import("./WebGLRenderer-VFHB7YN6.js");
       RendererClass = WebGLRenderer2;
       finalOptions = __spreadValues(__spreadValues({}, options), options.webgl);
       break;
     } else if (rendererType === "canvas") {
-      const { CanvasRenderer: CanvasRenderer2 } = await import("./CanvasRenderer-QYFOXDBN.js");
+      const { CanvasRenderer: CanvasRenderer2 } = await import("./CanvasRenderer-EBF7VXFY.js");
       RendererClass = CanvasRenderer2;
       finalOptions = __spreadValues(__spreadValues({}, options), options.canvasOptions);
       break;
@@ -6456,7 +6456,7 @@ async function autoDetectRenderer(options) {
   return renderer;
 }
 
-// ../../node_modules/pixi.js/lib/app/ResizePlugin.mjs
+// ../../../node_modules/pixi.js/lib/app/ResizePlugin.mjs
 var ResizePlugin = class {
   /**
    * Initialize the plugin with scope of application instance
@@ -6532,7 +6532,7 @@ var ResizePlugin = class {
 };
 ResizePlugin.extension = ExtensionType.Application;
 
-// ../../node_modules/pixi.js/lib/app/TickerPlugin.mjs
+// ../../../node_modules/pixi.js/lib/app/TickerPlugin.mjs
 var TickerPlugin = class {
   /**
    * Initialize the plugin with scope of application instance
@@ -6589,11 +6589,11 @@ var TickerPlugin = class {
 };
 TickerPlugin.extension = ExtensionType.Application;
 
-// ../../node_modules/pixi.js/lib/app/init.mjs
+// ../../../node_modules/pixi.js/lib/app/init.mjs
 extensions.add(ResizePlugin);
 extensions.add(TickerPlugin);
 
-// ../../node_modules/pixi.js/lib/app/Application.mjs
+// ../../../node_modules/pixi.js/lib/app/Application.mjs
 var _Application = class _Application2 {
   constructor(...args) {
     this.stage = new Container();
@@ -6773,7 +6773,7 @@ var Application = _Application;
 extensions.handleByList(ExtensionType.Application, Application._plugins);
 extensions.add(ApplicationInitHook);
 
-// ../../node_modules/pixi.js/lib/scene/text-bitmap/asset/bitmapFontTextParser.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-bitmap/asset/bitmapFontTextParser.mjs
 var bitmapFontTextParser = {
   test(data) {
     return typeof data === "string" && data.startsWith("info face=");
@@ -6866,7 +6866,7 @@ var bitmapFontTextParser = {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/text-bitmap/asset/bitmapFontXMLParser.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-bitmap/asset/bitmapFontXMLParser.mjs
 var bitmapFontXMLParser = {
   test(data) {
     const xml = data;
@@ -6937,7 +6937,7 @@ var bitmapFontXMLParser = {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/text-bitmap/asset/bitmapFontXMLStringParser.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-bitmap/asset/bitmapFontXMLStringParser.mjs
 var bitmapFontXMLStringParser = {
   test(data) {
     if (typeof data === "string" && data.match(/<font(\s|>)/)) {
@@ -6950,7 +6950,7 @@ var bitmapFontXMLStringParser = {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/text-bitmap/asset/loadBitmapFont.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-bitmap/asset/loadBitmapFont.mjs
 var validExtensions = [".xml", ".fnt"];
 var bitmapFontCachePlugin = {
   extension: {
@@ -7004,7 +7004,7 @@ var loadBitmapFont = {
     }
     const [loadedTextures, { BitmapFont: BitmapFont2 }] = await Promise.all([
       loader.load(textureUrls),
-      import("./BitmapFont-GDR7XSS7.js")
+      import("./BitmapFont-X6U3Q3G4.js")
     ]);
     const textures = textureUrls.map((url) => loadedTextures[url.src]);
     const bitmapFont = new BitmapFont2({
@@ -7023,7 +7023,7 @@ var loadBitmapFont = {
   }
 };
 
-// ../../node_modules/pixi.js/lib/assets/BackgroundLoader.mjs
+// ../../../node_modules/pixi.js/lib/assets/BackgroundLoader.mjs
 var BackgroundLoader = class {
   /**
    * @param loader
@@ -7126,7 +7126,7 @@ var BackgroundLoader = class {
   }
 };
 
-// ../../node_modules/pixi.js/lib/assets/cache/parsers/cacheTextureArray.mjs
+// ../../../node_modules/pixi.js/lib/assets/cache/parsers/cacheTextureArray.mjs
 var cacheTextureArray = {
   extension: {
     type: ExtensionType.CacheParser,
@@ -7144,7 +7144,7 @@ var cacheTextureArray = {
   }
 };
 
-// ../../node_modules/pixi.js/lib/assets/detections/utils/testImageFormat.mjs
+// ../../../node_modules/pixi.js/lib/assets/detections/utils/testImageFormat.mjs
 async function testImageFormat(imageData) {
   if ("Image" in globalThis) {
     return new Promise((resolve) => {
@@ -7170,7 +7170,7 @@ async function testImageFormat(imageData) {
   return false;
 }
 
-// ../../node_modules/pixi.js/lib/assets/detections/parsers/detectAvif.mjs
+// ../../../node_modules/pixi.js/lib/assets/detections/parsers/detectAvif.mjs
 var detectAvif = {
   extension: {
     type: ExtensionType.DetectionParser,
@@ -7184,7 +7184,7 @@ var detectAvif = {
   remove: async (formats) => formats.filter((f) => f !== "avif")
 };
 
-// ../../node_modules/pixi.js/lib/assets/detections/parsers/detectDefaults.mjs
+// ../../../node_modules/pixi.js/lib/assets/detections/parsers/detectDefaults.mjs
 var imageFormats = ["png", "jpg", "jpeg"];
 var detectDefaults = {
   extension: {
@@ -7196,7 +7196,7 @@ var detectDefaults = {
   remove: async (formats) => formats.filter((f) => !imageFormats.includes(f))
 };
 
-// ../../node_modules/pixi.js/lib/assets/detections/utils/testVideoFormat.mjs
+// ../../../node_modules/pixi.js/lib/assets/detections/utils/testVideoFormat.mjs
 var inWorker = "WorkerGlobalScope" in globalThis && globalThis instanceof globalThis.WorkerGlobalScope;
 function testVideoFormat(mimeType) {
   if (inWorker) {
@@ -7206,7 +7206,7 @@ function testVideoFormat(mimeType) {
   return video.canPlayType(mimeType) !== "";
 }
 
-// ../../node_modules/pixi.js/lib/assets/detections/parsers/detectMp4.mjs
+// ../../../node_modules/pixi.js/lib/assets/detections/parsers/detectMp4.mjs
 var detectMp4 = {
   extension: {
     type: ExtensionType.DetectionParser,
@@ -7217,7 +7217,7 @@ var detectMp4 = {
   remove: async (formats) => formats.filter((f) => f !== "mp4" && f !== "m4v")
 };
 
-// ../../node_modules/pixi.js/lib/assets/detections/parsers/detectOgv.mjs
+// ../../../node_modules/pixi.js/lib/assets/detections/parsers/detectOgv.mjs
 var detectOgv = {
   extension: {
     type: ExtensionType.DetectionParser,
@@ -7228,7 +7228,7 @@ var detectOgv = {
   remove: async (formats) => formats.filter((f) => f !== "ogv")
 };
 
-// ../../node_modules/pixi.js/lib/assets/detections/parsers/detectWebm.mjs
+// ../../../node_modules/pixi.js/lib/assets/detections/parsers/detectWebm.mjs
 var detectWebm = {
   extension: {
     type: ExtensionType.DetectionParser,
@@ -7239,7 +7239,7 @@ var detectWebm = {
   remove: async (formats) => formats.filter((f) => f !== "webm")
 };
 
-// ../../node_modules/pixi.js/lib/assets/detections/parsers/detectWebp.mjs
+// ../../../node_modules/pixi.js/lib/assets/detections/parsers/detectWebp.mjs
 var detectWebp = {
   extension: {
     type: ExtensionType.DetectionParser,
@@ -7252,7 +7252,7 @@ var detectWebp = {
   remove: async (formats) => formats.filter((f) => f !== "webp")
 };
 
-// ../../node_modules/pixi.js/lib/assets/loader/Loader.mjs
+// ../../../node_modules/pixi.js/lib/assets/loader/Loader.mjs
 var _Loader = class _Loader2 {
   constructor() {
     this.loadOptions = __spreadValues({}, _Loader2.defaultOptions);
@@ -7439,7 +7439,7 @@ _Loader.defaultOptions = {
 };
 var Loader = _Loader;
 
-// ../../node_modules/pixi.js/lib/assets/utils/checkDataUrl.mjs
+// ../../../node_modules/pixi.js/lib/assets/utils/checkDataUrl.mjs
 function checkDataUrl(url, mimes) {
   if (Array.isArray(mimes)) {
     for (const mime of mimes) {
@@ -7450,7 +7450,7 @@ function checkDataUrl(url, mimes) {
   return url.startsWith(`data:${mimes}`);
 }
 
-// ../../node_modules/pixi.js/lib/assets/utils/checkExtension.mjs
+// ../../../node_modules/pixi.js/lib/assets/utils/checkExtension.mjs
 function checkExtension(url, extension) {
   const tempURL = url.split("?")[0];
   const ext = path.extname(tempURL).toLowerCase();
@@ -7460,7 +7460,7 @@ function checkExtension(url, extension) {
   return ext === extension;
 }
 
-// ../../node_modules/pixi.js/lib/assets/loader/parsers/loadJson.mjs
+// ../../../node_modules/pixi.js/lib/assets/loader/parsers/loadJson.mjs
 var validJSONExtension = ".json";
 var validJSONMIME = "application/json";
 var loadJson = {
@@ -7481,7 +7481,7 @@ var loadJson = {
   }
 };
 
-// ../../node_modules/pixi.js/lib/assets/loader/parsers/loadTxt.mjs
+// ../../../node_modules/pixi.js/lib/assets/loader/parsers/loadTxt.mjs
 var validTXTExtension = ".txt";
 var validTXTMIME = "text/plain";
 var loadTxt = {
@@ -7503,7 +7503,7 @@ var loadTxt = {
   }
 };
 
-// ../../node_modules/pixi.js/lib/assets/loader/parsers/loadWebFont.mjs
+// ../../../node_modules/pixi.js/lib/assets/loader/parsers/loadWebFont.mjs
 var validWeights = [
   "normal",
   "bold",
@@ -7608,7 +7608,7 @@ var loadWebFont = {
   }
 };
 
-// ../../node_modules/pixi.js/lib/utils/network/getResolutionOfUrl.mjs
+// ../../../node_modules/pixi.js/lib/utils/network/getResolutionOfUrl.mjs
 function getResolutionOfUrl(url, defaultValue2 = 1) {
   const resolution = Resolver.RETINA_PREFIX?.exec(url);
   if (resolution) {
@@ -7617,7 +7617,7 @@ function getResolutionOfUrl(url, defaultValue2 = 1) {
   return defaultValue2;
 }
 
-// ../../node_modules/pixi.js/lib/assets/loader/parsers/textures/utils/createTexture.mjs
+// ../../../node_modules/pixi.js/lib/assets/loader/parsers/textures/utils/createTexture.mjs
 function createTexture(source8, loader, url) {
   source8.label = url;
   source8._sourceOrigin = url;
@@ -7646,7 +7646,7 @@ function createTexture(source8, loader, url) {
   return texture;
 }
 
-// ../../node_modules/pixi.js/lib/assets/loader/parsers/textures/loadSVG.mjs
+// ../../../node_modules/pixi.js/lib/assets/loader/parsers/textures/loadSVG.mjs
 var validSVGExtension = ".svg";
 var validSVGMIME = "image/svg+xml";
 var loadSvg = {
@@ -7707,7 +7707,7 @@ async function loadAsGraphics(url) {
   return context;
 }
 
-// ../../node_modules/pixi.js/lib/_virtual/checkImageBitmap.worker.mjs
+// ../../../node_modules/pixi.js/lib/_virtual/checkImageBitmap.worker.mjs
 var WORKER_CODE = `(function () {
     'use strict';
 
@@ -7745,7 +7745,7 @@ WorkerInstance.revokeObjectURL = function revokeObjectURL() {
   }
 };
 
-// ../../node_modules/pixi.js/lib/_virtual/loadImageBitmap.worker.mjs
+// ../../../node_modules/pixi.js/lib/_virtual/loadImageBitmap.worker.mjs
 var WORKER_CODE2 = '(function () {\n    \'use strict\';\n\n    async function loadImageBitmap(url, alphaMode) {\n      const response = await fetch(url);\n      if (!response.ok) {\n        throw new Error(`[WorkerManager.loadImageBitmap] Failed to fetch ${url}: ${response.status} ${response.statusText}`);\n      }\n      const imageBlob = await response.blob();\n      return alphaMode === "premultiplied-alpha" ? createImageBitmap(imageBlob, { premultiplyAlpha: "none" }) : createImageBitmap(imageBlob);\n    }\n    self.onmessage = async (event) => {\n      try {\n        const imageBitmap = await loadImageBitmap(event.data.data[0], event.data.data[1]);\n        self.postMessage({\n          data: imageBitmap,\n          uuid: event.data.uuid,\n          id: event.data.id\n        }, [imageBitmap]);\n      } catch (e) {\n        self.postMessage({\n          error: e,\n          uuid: event.data.uuid,\n          id: event.data.id\n        });\n      }\n    };\n\n})();\n';
 var WORKER_URL2 = null;
 var WorkerInstance2 = class {
@@ -7763,7 +7763,7 @@ WorkerInstance2.revokeObjectURL = function revokeObjectURL2() {
   }
 };
 
-// ../../node_modules/pixi.js/lib/assets/loader/workers/WorkerManager.mjs
+// ../../../node_modules/pixi.js/lib/assets/loader/workers/WorkerManager.mjs
 var UUID = 0;
 var MAX_WORKERS;
 var WorkerManagerClass = class {
@@ -7928,7 +7928,7 @@ var WorkerManagerClass = class {
 };
 var WorkerManager = new WorkerManagerClass();
 
-// ../../node_modules/pixi.js/lib/assets/loader/parsers/textures/loadTextures.mjs
+// ../../../node_modules/pixi.js/lib/assets/loader/parsers/textures/loadTextures.mjs
 var validImageExtensions = [".jpeg", ".jpg", ".png", ".webp", ".avif"];
 var validImageMIMEs = [
   "image/jpeg",
@@ -7996,7 +7996,7 @@ var loadTextures = {
   }
 };
 
-// ../../node_modules/pixi.js/lib/assets/loader/parsers/textures/loadVideoTextures.mjs
+// ../../../node_modules/pixi.js/lib/assets/loader/parsers/textures/loadVideoTextures.mjs
 var potentialVideoExtensions = [".mp4", ".m4v", ".webm", ".ogg", ".ogv", ".h264", ".avi", ".mov"];
 var validVideoExtensions;
 var validVideoMIMEs;
@@ -8140,7 +8140,7 @@ var loadVideoTextures = {
   }
 };
 
-// ../../node_modules/pixi.js/lib/assets/resolver/parsers/resolveTextureUrl.mjs
+// ../../../node_modules/pixi.js/lib/assets/resolver/parsers/resolveTextureUrl.mjs
 var resolveTextureUrl = {
   extension: {
     type: ExtensionType.ResolveParser,
@@ -8154,7 +8154,7 @@ var resolveTextureUrl = {
   })
 };
 
-// ../../node_modules/pixi.js/lib/assets/resolver/parsers/resolveJsonUrl.mjs
+// ../../../node_modules/pixi.js/lib/assets/resolver/parsers/resolveJsonUrl.mjs
 var resolveJsonUrl = {
   extension: {
     type: ExtensionType.ResolveParser,
@@ -8165,7 +8165,7 @@ var resolveJsonUrl = {
   parse: resolveTextureUrl.parse
 };
 
-// ../../node_modules/pixi.js/lib/assets/Assets.mjs
+// ../../../node_modules/pixi.js/lib/assets/Assets.mjs
 var AssetsClass = class {
   constructor() {
     this._detections = [];
@@ -8872,7 +8872,7 @@ extensions.handle(ExtensionType.Asset, (extension) => {
   Object.keys(assetKeyMap).filter((key) => !!ref[key]).forEach((key) => extensions.remove(ref[key]));
 });
 
-// ../../node_modules/pixi.js/lib/compressed-textures/basis/detectBasis.mjs
+// ../../../node_modules/pixi.js/lib/compressed-textures/basis/detectBasis.mjs
 var detectBasis = {
   extension: {
     type: ExtensionType.DetectionParser,
@@ -8887,7 +8887,7 @@ var detectBasis = {
   remove: async (formats) => formats.filter((f) => f !== "basis")
 };
 
-// ../../node_modules/pixi.js/lib/rendering/renderers/shared/texture/sources/CompressedSource.mjs
+// ../../../node_modules/pixi.js/lib/rendering/renderers/shared/texture/sources/CompressedSource.mjs
 var CompressedSource = class extends TextureSource {
   constructor(options) {
     super(__spreadProps(__spreadValues({}, options), {
@@ -8897,7 +8897,7 @@ var CompressedSource = class extends TextureSource {
   }
 };
 
-// ../../node_modules/pixi.js/lib/rendering/renderers/gl/texture/utils/getSupportedGlCompressedTextureFormats.mjs
+// ../../../node_modules/pixi.js/lib/rendering/renderers/gl/texture/utils/getSupportedGlCompressedTextureFormats.mjs
 var supportedGLCompressedTextureFormats;
 function getSupportedGlCompressedTextureFormats() {
   if (supportedGLCompressedTextureFormats) return supportedGLCompressedTextureFormats;
@@ -8993,7 +8993,7 @@ function getSupportedGlCompressedTextureFormats() {
   return supportedGLCompressedTextureFormats;
 }
 
-// ../../node_modules/pixi.js/lib/rendering/renderers/gpu/texture/utils/getSupportedGPUCompressedTextureFormats.mjs
+// ../../../node_modules/pixi.js/lib/rendering/renderers/gpu/texture/utils/getSupportedGPUCompressedTextureFormats.mjs
 var supportedGPUCompressedTextureFormats;
 async function getSupportedGPUCompressedTextureFormats() {
   if (supportedGPUCompressedTextureFormats) return supportedGPUCompressedTextureFormats;
@@ -9067,7 +9067,7 @@ async function getSupportedGPUCompressedTextureFormats() {
   return supportedGPUCompressedTextureFormats;
 }
 
-// ../../node_modules/pixi.js/lib/rendering/renderers/shared/texture/utils/getSupportedCompressedTextureFormats.mjs
+// ../../../node_modules/pixi.js/lib/rendering/renderers/shared/texture/utils/getSupportedCompressedTextureFormats.mjs
 var supportedCompressedTextureFormats;
 async function getSupportedCompressedTextureFormats() {
   if (supportedCompressedTextureFormats !== void 0) return supportedCompressedTextureFormats;
@@ -9088,7 +9088,7 @@ async function getSupportedCompressedTextureFormats() {
   return supportedCompressedTextureFormats;
 }
 
-// ../../node_modules/pixi.js/lib/rendering/renderers/shared/texture/utils/getSupportedTextureFormats.mjs
+// ../../../node_modules/pixi.js/lib/rendering/renderers/shared/texture/utils/getSupportedTextureFormats.mjs
 var nonCompressedFormats = [
   // 8-bit formats
   "r8unorm",
@@ -9152,7 +9152,7 @@ async function getSupportedTextureFormats() {
   return supportedTextureFormats;
 }
 
-// ../../node_modules/pixi.js/lib/_virtual/basis.worker.mjs
+// ../../../node_modules/pixi.js/lib/_virtual/basis.worker.mjs
 var WORKER_CODE3 = '(function () {\n    \'use strict\';\n\n    function createLevelBuffers(basisTexture, basisTranscoderFormat) {\n      const images = basisTexture.getNumImages();\n      const levels = basisTexture.getNumLevels(0);\n      const success = basisTexture.startTranscoding();\n      if (!success) {\n        throw new Error("startTranscoding failed");\n      }\n      const levelBuffers = [];\n      for (let levelIndex = 0; levelIndex < levels; ++levelIndex) {\n        for (let sliceIndex = 0; sliceIndex < images; ++sliceIndex) {\n          const transcodeSize = basisTexture.getImageTranscodedSizeInBytes(sliceIndex, levelIndex, basisTranscoderFormat);\n          const levelBuffer = new Uint8Array(transcodeSize);\n          const success2 = basisTexture.transcodeImage(levelBuffer, sliceIndex, levelIndex, basisTranscoderFormat, 1, 0);\n          if (!success2) {\n            throw new Error("transcodeImage failed");\n          }\n          levelBuffers.push(levelBuffer);\n        }\n      }\n      return levelBuffers;\n    }\n\n    const gpuFormatToBasisTranscoderFormatMap = {\n      "bc3-rgba-unorm": 3,\n      // cTFBC3_RGBA\n      "bc7-rgba-unorm": 6,\n      // cTFBC7_RGBA,\n      "etc2-rgba8unorm": 1,\n      // cTFETC2_RGBA,\n      "astc-4x4-unorm": 10,\n      // cTFASTC_4x4_RGBA,\n      // Uncompressed\n      rgba8unorm: 13,\n      // cTFRGBA32,\n      rgba4unorm: 16\n      // cTFRGBA4444,\n    };\n    function gpuFormatToBasisTranscoderFormat(transcoderFormat) {\n      const format = gpuFormatToBasisTranscoderFormatMap[transcoderFormat];\n      if (format) {\n        return format;\n      }\n      throw new Error(`Unsupported transcoderFormat: ${transcoderFormat}`);\n    }\n\n    const settings = {\n      jsUrl: "basis/basis_transcoder.js",\n      wasmUrl: "basis/basis_transcoder.wasm"\n    };\n    let basisTranscoderFormat;\n    let basisTranscodedTextureFormat;\n    let basisPromise;\n    async function getBasis() {\n      if (!basisPromise) {\n        const absoluteJsUrl = new URL(settings.jsUrl, location.origin).href;\n        const absoluteWasmUrl = new URL(settings.wasmUrl, location.origin).href;\n        importScripts(absoluteJsUrl);\n        basisPromise = new Promise((resolve) => {\n          BASIS({\n            locateFile: (_file) => absoluteWasmUrl\n          }).then((module) => {\n            module.initializeBasis();\n            resolve(module.BasisFile);\n          });\n        });\n      }\n      return basisPromise;\n    }\n    async function fetchBasisTexture(url, BasisTexture) {\n      const basisResponse = await fetch(url);\n      if (basisResponse.ok) {\n        const basisArrayBuffer = await basisResponse.arrayBuffer();\n        return new BasisTexture(new Uint8Array(basisArrayBuffer));\n      }\n      throw new Error(`Failed to load Basis texture: ${url}`);\n    }\n    const preferredTranscodedFormat = [\n      "bc7-rgba-unorm",\n      "astc-4x4-unorm",\n      "etc2-rgba8unorm",\n      "bc3-rgba-unorm",\n      "rgba8unorm"\n    ];\n    async function load(url) {\n      const BasisTexture = await getBasis();\n      const basisTexture = await fetchBasisTexture(url, BasisTexture);\n      const levelBuffers = createLevelBuffers(basisTexture, basisTranscoderFormat);\n      return {\n        width: basisTexture.getImageWidth(0, 0),\n        height: basisTexture.getImageHeight(0, 0),\n        format: basisTranscodedTextureFormat,\n        resource: levelBuffers,\n        alphaMode: "no-premultiply-alpha"\n      };\n    }\n    async function init(jsUrl, wasmUrl, supportedTextures) {\n      if (jsUrl) settings.jsUrl = jsUrl;\n      if (wasmUrl) settings.wasmUrl = wasmUrl;\n      basisTranscodedTextureFormat = preferredTranscodedFormat.filter((format) => supportedTextures.includes(format))[0];\n      basisTranscoderFormat = gpuFormatToBasisTranscoderFormat(basisTranscodedTextureFormat);\n      await getBasis();\n    }\n    const messageHandlers = {\n      init: async (data) => {\n        const { jsUrl, wasmUrl, supportedTextures } = data;\n        await init(jsUrl, wasmUrl, supportedTextures);\n      },\n      load: async (data) => {\n        try {\n          const textureOptions = await load(data.url);\n          return {\n            type: "load",\n            url: data.url,\n            success: true,\n            textureOptions,\n            transferables: textureOptions.resource?.map((arr) => arr.buffer)\n          };\n        } catch (e) {\n          throw e;\n        }\n      }\n    };\n    self.onmessage = (async (messageEvent) => {\n      const message = messageEvent.data;\n      const response = await messageHandlers[message.type](message);\n      if (response) {\n        self.postMessage(response, response.transferables);\n      }\n    });\n\n})();\n';
 var WORKER_URL3 = null;
 var WorkerInstance3 = class {
@@ -9170,7 +9170,7 @@ WorkerInstance3.revokeObjectURL = function revokeObjectURL3() {
   }
 };
 
-// ../../node_modules/pixi.js/lib/compressed-textures/basis/utils/setBasisTranscoderPath.mjs
+// ../../../node_modules/pixi.js/lib/compressed-textures/basis/utils/setBasisTranscoderPath.mjs
 var basisTranscoderUrls = {
   jsUrl: "https://cdn.jsdelivr.net/npm/pixi.js/transcoders/basis/basis_transcoder.js",
   wasmUrl: "https://cdn.jsdelivr.net/npm/pixi.js/transcoders/basis/basis_transcoder.wasm"
@@ -9179,7 +9179,7 @@ function setBasisTranscoderPath(config) {
   Object.assign(basisTranscoderUrls, config);
 }
 
-// ../../node_modules/pixi.js/lib/compressed-textures/basis/worker/loadBasisOnWorker.mjs
+// ../../../node_modules/pixi.js/lib/compressed-textures/basis/worker/loadBasisOnWorker.mjs
 var basisWorker;
 var urlHash = {};
 function getBasisWorker(supportedTextures) {
@@ -9209,7 +9209,7 @@ function loadBasisOnWorker(url, supportedTextures) {
   });
 }
 
-// ../../node_modules/pixi.js/lib/compressed-textures/basis/loadBasis.mjs
+// ../../../node_modules/pixi.js/lib/compressed-textures/basis/loadBasis.mjs
 var loadBasis = {
   extension: {
     type: ExtensionType.LoadParser,
@@ -9237,7 +9237,7 @@ var loadBasis = {
   }
 };
 
-// ../../node_modules/pixi.js/lib/compressed-textures/basis/utils/createLevelBuffers.mjs
+// ../../../node_modules/pixi.js/lib/compressed-textures/basis/utils/createLevelBuffers.mjs
 function createLevelBuffers(basisTexture, basisTranscoderFormat) {
   const images = basisTexture.getNumImages();
   const levels = basisTexture.getNumLevels(0);
@@ -9260,7 +9260,7 @@ function createLevelBuffers(basisTexture, basisTranscoderFormat) {
   return levelBuffers;
 }
 
-// ../../node_modules/pixi.js/lib/compressed-textures/basis/utils/gpuFormatToBasisTranscoderFormat.mjs
+// ../../../node_modules/pixi.js/lib/compressed-textures/basis/utils/gpuFormatToBasisTranscoderFormat.mjs
 var gpuFormatToBasisTranscoderFormatMap = {
   "bc3-rgba-unorm": 3,
   // cTFBC3_RGBA
@@ -9284,7 +9284,7 @@ function gpuFormatToBasisTranscoderFormat(transcoderFormat) {
   throw new Error(`Unsupported transcoderFormat: ${transcoderFormat}`);
 }
 
-// ../../node_modules/pixi.js/lib/compressed-textures/dds/const.mjs
+// ../../../node_modules/pixi.js/lib/compressed-textures/dds/const.mjs
 var DDS_HEADER_FIELDS = {
   MAGIC: 0,
   SIZE: 1,
@@ -9736,7 +9736,7 @@ var TEXTURE_FORMAT_BLOCK_SIZE = {
   "bc7-rgba-unorm-srgb": 16
 };
 
-// ../../node_modules/pixi.js/lib/compressed-textures/dds/parseDDS.mjs
+// ../../../node_modules/pixi.js/lib/compressed-textures/dds/parseDDS.mjs
 function parseDDS(arrayBuffer, supportedFormats) {
   const {
     format,
@@ -9904,7 +9904,7 @@ function getUncompressedTextureFormat(header) {
                 bitCount = ${bitCount}, rBitMask = ${rBitMask}, gBitMask = ${gBitMask}, aBitMask = ${aBitMask}`);
 }
 
-// ../../node_modules/pixi.js/lib/compressed-textures/dds/loadDDS.mjs
+// ../../../node_modules/pixi.js/lib/compressed-textures/dds/loadDDS.mjs
 var loadDDS = {
   extension: {
     type: ExtensionType.LoadParser,
@@ -9934,7 +9934,7 @@ var loadDDS = {
   }
 };
 
-// ../../node_modules/pixi.js/lib/compressed-textures/ktx2/const.mjs
+// ../../../node_modules/pixi.js/lib/compressed-textures/ktx2/const.mjs
 var GL_INTERNAL_FORMAT = ((GL_INTERNAL_FORMAT2) => {
   GL_INTERNAL_FORMAT2[GL_INTERNAL_FORMAT2["RGBA8_SNORM"] = 36759] = "RGBA8_SNORM";
   GL_INTERNAL_FORMAT2[GL_INTERNAL_FORMAT2["RGBA"] = 6408] = "RGBA";
@@ -10587,7 +10587,7 @@ var KTX = {
   ENDIANNESS
 };
 
-// ../../node_modules/pixi.js/lib/compressed-textures/ktx/parseKTX.mjs
+// ../../../node_modules/pixi.js/lib/compressed-textures/ktx/parseKTX.mjs
 function parseKTX(arrayBuffer, supportedFormats) {
   const dataView = new DataView(arrayBuffer);
   if (!validate(dataView)) {
@@ -10713,7 +10713,7 @@ function validate(dataView) {
   return true;
 }
 
-// ../../node_modules/pixi.js/lib/compressed-textures/ktx/loadKTX.mjs
+// ../../../node_modules/pixi.js/lib/compressed-textures/ktx/loadKTX.mjs
 var loadKTX = {
   extension: {
     type: ExtensionType.LoadParser,
@@ -10743,7 +10743,7 @@ var loadKTX = {
   }
 };
 
-// ../../node_modules/pixi.js/lib/_virtual/ktx.worker.mjs
+// ../../../node_modules/pixi.js/lib/_virtual/ktx.worker.mjs
 var WORKER_CODE4 = '(function () {\n    \'use strict\';\n\n    const converters = {\n      rgb8unorm: {\n        convertedFormat: "rgba8unorm",\n        convertFunction: convertRGBtoRGBA\n      },\n      "rgb8unorm-srgb": {\n        convertedFormat: "rgba8unorm-srgb",\n        convertFunction: convertRGBtoRGBA\n      }\n    };\n    function convertFormatIfRequired(textureOptions) {\n      const format = textureOptions.format;\n      if (converters[format]) {\n        const convertFunction = converters[format].convertFunction;\n        const levelBuffers = textureOptions.resource;\n        for (let i = 0; i < levelBuffers.length; i++) {\n          levelBuffers[i] = convertFunction(levelBuffers[i]);\n        }\n        textureOptions.format = converters[format].convertedFormat;\n      }\n    }\n    function convertRGBtoRGBA(levelBuffer) {\n      const pixelCount = levelBuffer.byteLength / 3;\n      const levelBufferWithAlpha = new Uint32Array(pixelCount);\n      for (let i = 0; i < pixelCount; ++i) {\n        levelBufferWithAlpha[i] = levelBuffer[i * 3] + (levelBuffer[i * 3 + 1] << 8) + (levelBuffer[i * 3 + 2] << 16) + 4278190080;\n      }\n      return new Uint8Array(levelBufferWithAlpha.buffer);\n    }\n\n    function createLevelBuffersFromKTX(ktxTexture) {\n      const levelBuffers = [];\n      for (let i = 0; i < ktxTexture.numLevels; i++) {\n        const imageData = ktxTexture.getImageData(i, 0, 0);\n        const levelBuffer = new Uint8Array(imageData.byteLength);\n        levelBuffer.set(imageData);\n        levelBuffers.push(levelBuffer);\n      }\n      return levelBuffers;\n    }\n\n    const glFormatToGPUFormatMap = {\n      6408: "rgba8unorm",\n      32856: "bgra8unorm",\n      //\n      32857: "rgb10a2unorm",\n      33189: "depth16unorm",\n      33190: "depth24plus",\n      33321: "r8unorm",\n      33323: "rg8unorm",\n      33325: "r16float",\n      33326: "r32float",\n      33327: "rg16float",\n      33328: "rg32float",\n      33329: "r8sint",\n      33330: "r8uint",\n      33331: "r16sint",\n      33332: "r16uint",\n      33333: "r32sint",\n      33334: "r32uint",\n      33335: "rg8sint",\n      33336: "rg8uint",\n      33337: "rg16sint",\n      33338: "rg16uint",\n      33339: "rg32sint",\n      33340: "rg32uint",\n      33778: "bc2-rgba-unorm",\n      33779: "bc3-rgba-unorm",\n      34836: "rgba32float",\n      34842: "rgba16float",\n      35056: "depth24plus-stencil8",\n      35898: "rg11b10ufloat",\n      35901: "rgb9e5ufloat",\n      35907: "rgba8unorm-srgb",\n      // bgra8unorm-srgb\n      36012: "depth32float",\n      36013: "depth32float-stencil8",\n      36168: "stencil8",\n      36208: "rgba32uint",\n      36214: "rgba16uint",\n      36220: "rgba8uint",\n      36226: "rgba32sint",\n      36232: "rgba16sint",\n      36238: "rgba8sint",\n      36492: "bc7-rgba-unorm",\n      36756: "r8snorm",\n      36757: "rg8snorm",\n      36759: "rgba8snorm",\n      37496: "etc2-rgba8unorm",\n      37808: "astc-4x4-unorm"\n    };\n    function glFormatToGPUFormat(glInternalFormat) {\n      const format = glFormatToGPUFormatMap[glInternalFormat];\n      if (format) {\n        return format;\n      }\n      throw new Error(`Unsupported glInternalFormat: ${glInternalFormat}`);\n    }\n\n    const vkFormatToGPUFormatMap = {\n      23: "rgb8unorm",\n      // VK_FORMAT_R8G8B8_UNORM\n      37: "rgba8unorm",\n      // VK_FORMAT_R8G8B8A8_UNORM\n      43: "rgba8unorm-srgb"\n      // VK_FORMAT_R8G8B8A8_SRGB\n      // TODO add more!\n    };\n    function vkFormatToGPUFormat(vkFormat) {\n      const format = vkFormatToGPUFormatMap[vkFormat];\n      if (format) {\n        return format;\n      }\n      throw new Error(`Unsupported VkFormat: ${vkFormat}`);\n    }\n\n    function getTextureFormatFromKTXTexture(ktxTexture) {\n      if (ktxTexture.classId === 2) {\n        return vkFormatToGPUFormat(ktxTexture.vkFormat);\n      }\n      return glFormatToGPUFormat(ktxTexture.glInternalformat);\n    }\n\n    const gpuFormatToBasisTranscoderFormatMap = {\n      "bc3-rgba-unorm": "BC3_RGBA",\n      "bc7-rgba-unorm": "BC7_M5_RGBA",\n      "etc2-rgba8unorm": "ETC2_RGBA",\n      "astc-4x4-unorm": "ASTC_4x4_RGBA",\n      // Uncompressed\n      rgba8unorm: "RGBA32",\n      rg11b10ufloat: "R11F_G11F_B10F"\n    };\n    function gpuFormatToKTXBasisTranscoderFormat(transcoderFormat) {\n      const format = gpuFormatToBasisTranscoderFormatMap[transcoderFormat];\n      if (format) {\n        return format;\n      }\n      throw new Error(`Unsupported transcoderFormat: ${transcoderFormat}`);\n    }\n\n    const settings = {\n      jsUrl: "",\n      wasmUrl: ""\n    };\n    let basisTranscoderFormat;\n    let basisTranscodedTextureFormat;\n    let ktxPromise;\n    async function getKTX() {\n      if (!ktxPromise) {\n        const absoluteJsUrl = new URL(settings.jsUrl, location.origin).href;\n        const absoluteWasmUrl = new URL(settings.wasmUrl, location.origin).href;\n        importScripts(absoluteJsUrl);\n        ktxPromise = new Promise((resolve) => {\n          LIBKTX({\n            locateFile: (_file) => absoluteWasmUrl\n          }).then((libktx) => {\n            resolve(libktx);\n          });\n        });\n      }\n      return ktxPromise;\n    }\n    async function fetchKTXTexture(url, ktx) {\n      const ktx2Response = await fetch(url);\n      if (ktx2Response.ok) {\n        const ktx2ArrayBuffer = await ktx2Response.arrayBuffer();\n        return new ktx.ktxTexture(new Uint8Array(ktx2ArrayBuffer));\n      }\n      throw new Error(`Failed to load KTX(2) texture: ${url}`);\n    }\n    const preferredTranscodedFormat = [\n      "bc7-rgba-unorm",\n      "astc-4x4-unorm",\n      "etc2-rgba8unorm",\n      "bc3-rgba-unorm",\n      "rgba8unorm"\n    ];\n    async function load(url) {\n      const ktx = await getKTX();\n      const ktxTexture = await fetchKTXTexture(url, ktx);\n      let format;\n      if (ktxTexture.needsTranscoding) {\n        format = basisTranscodedTextureFormat;\n        const transcodeFormat = ktx.TranscodeTarget[basisTranscoderFormat];\n        const result = ktxTexture.transcodeBasis(transcodeFormat, 0);\n        if (result !== ktx.ErrorCode.SUCCESS) {\n          throw new Error("Unable to transcode basis texture.");\n        }\n      } else {\n        format = getTextureFormatFromKTXTexture(ktxTexture);\n      }\n      const levelBuffers = createLevelBuffersFromKTX(ktxTexture);\n      const textureOptions = {\n        width: ktxTexture.baseWidth,\n        height: ktxTexture.baseHeight,\n        format,\n        mipLevelCount: ktxTexture.numLevels,\n        resource: levelBuffers,\n        alphaMode: "no-premultiply-alpha"\n      };\n      convertFormatIfRequired(textureOptions);\n      return textureOptions;\n    }\n    async function init(jsUrl, wasmUrl, supportedTextures) {\n      if (jsUrl) settings.jsUrl = jsUrl;\n      if (wasmUrl) settings.wasmUrl = wasmUrl;\n      basisTranscodedTextureFormat = preferredTranscodedFormat.filter((format) => supportedTextures.includes(format))[0];\n      basisTranscoderFormat = gpuFormatToKTXBasisTranscoderFormat(basisTranscodedTextureFormat);\n      await getKTX();\n    }\n    const messageHandlers = {\n      init: async (data) => {\n        const { jsUrl, wasmUrl, supportedTextures } = data;\n        await init(jsUrl, wasmUrl, supportedTextures);\n      },\n      load: async (data) => {\n        try {\n          const textureOptions = await load(data.url);\n          return {\n            type: "load",\n            url: data.url,\n            success: true,\n            textureOptions,\n            transferables: textureOptions.resource?.map((arr) => arr.buffer)\n          };\n        } catch (e) {\n          throw e;\n        }\n      }\n    };\n    self.onmessage = (async (messageEvent) => {\n      const message = messageEvent.data;\n      try {\n        const response = await messageHandlers[message.type]?.(message);\n        if (response) {\n          self.postMessage(response, response.transferables);\n        }\n      } catch (err) {\n        self.postMessage({\n          type: "error",\n          err,\n          url: message.url\n        });\n      }\n    });\n\n})();\n';
 var WORKER_URL4 = null;
 var WorkerInstance4 = class {
@@ -10761,7 +10761,7 @@ WorkerInstance4.revokeObjectURL = function revokeObjectURL4() {
   }
 };
 
-// ../../node_modules/pixi.js/lib/compressed-textures/ktx2/utils/setKTXTranscoderPath.mjs
+// ../../../node_modules/pixi.js/lib/compressed-textures/ktx2/utils/setKTXTranscoderPath.mjs
 var ktxTranscoderUrls = {
   jsUrl: "https://cdn.jsdelivr.net/npm/pixi.js/transcoders/ktx/libktx.js",
   wasmUrl: "https://cdn.jsdelivr.net/npm/pixi.js/transcoders/ktx/libktx.wasm"
@@ -10770,7 +10770,7 @@ function setKTXTranscoderPath(config) {
   Object.assign(ktxTranscoderUrls, config);
 }
 
-// ../../node_modules/pixi.js/lib/compressed-textures/ktx2/worker/loadKTX2onWorker.mjs
+// ../../../node_modules/pixi.js/lib/compressed-textures/ktx2/worker/loadKTX2onWorker.mjs
 var ktxWorker;
 var urlHash2 = {};
 var errorHash = {};
@@ -10806,7 +10806,7 @@ function loadKTX2onWorker(url, supportedTextures) {
   });
 }
 
-// ../../node_modules/pixi.js/lib/compressed-textures/ktx2/loadKTX2.mjs
+// ../../../node_modules/pixi.js/lib/compressed-textures/ktx2/loadKTX2.mjs
 var loadKTX2 = {
   extension: {
     type: ExtensionType.LoadParser,
@@ -10834,7 +10834,7 @@ var loadKTX2 = {
   }
 };
 
-// ../../node_modules/pixi.js/lib/compressed-textures/ktx2/utils/convertFormatIfRequired.mjs
+// ../../../node_modules/pixi.js/lib/compressed-textures/ktx2/utils/convertFormatIfRequired.mjs
 var converters = {
   rgb8unorm: {
     convertedFormat: "rgba8unorm",
@@ -10865,7 +10865,7 @@ function convertRGBtoRGBA(levelBuffer) {
   return new Uint8Array(levelBufferWithAlpha.buffer);
 }
 
-// ../../node_modules/pixi.js/lib/compressed-textures/ktx2/utils/createLevelBuffersFromKTX.mjs
+// ../../../node_modules/pixi.js/lib/compressed-textures/ktx2/utils/createLevelBuffersFromKTX.mjs
 function createLevelBuffersFromKTX(ktxTexture) {
   const levelBuffers = [];
   for (let i = 0; i < ktxTexture.numLevels; i++) {
@@ -10877,7 +10877,7 @@ function createLevelBuffersFromKTX(ktxTexture) {
   return levelBuffers;
 }
 
-// ../../node_modules/pixi.js/lib/compressed-textures/ktx2/utils/glFormatToGPUFormat.mjs
+// ../../../node_modules/pixi.js/lib/compressed-textures/ktx2/utils/glFormatToGPUFormat.mjs
 var glFormatToGPUFormatMap = {
   6408: "rgba8unorm",
   32856: "bgra8unorm",
@@ -10936,7 +10936,7 @@ function glFormatToGPUFormat(glInternalFormat) {
   throw new Error(`Unsupported glInternalFormat: ${glInternalFormat}`);
 }
 
-// ../../node_modules/pixi.js/lib/compressed-textures/ktx2/utils/vkFormatToGPUFormat.mjs
+// ../../../node_modules/pixi.js/lib/compressed-textures/ktx2/utils/vkFormatToGPUFormat.mjs
 var vkFormatToGPUFormatMap = {
   23: "rgb8unorm",
   // VK_FORMAT_R8G8B8_UNORM
@@ -10954,7 +10954,7 @@ function vkFormatToGPUFormat(vkFormat) {
   throw new Error(`Unsupported VkFormat: ${vkFormat}`);
 }
 
-// ../../node_modules/pixi.js/lib/compressed-textures/ktx2/utils/getTextureFormatFromKTXTexture.mjs
+// ../../../node_modules/pixi.js/lib/compressed-textures/ktx2/utils/getTextureFormatFromKTXTexture.mjs
 function getTextureFormatFromKTXTexture(ktxTexture) {
   if (ktxTexture.classId === 2) {
     return vkFormatToGPUFormat(ktxTexture.vkFormat);
@@ -10962,7 +10962,7 @@ function getTextureFormatFromKTXTexture(ktxTexture) {
   return glFormatToGPUFormat(ktxTexture.glInternalformat);
 }
 
-// ../../node_modules/pixi.js/lib/compressed-textures/ktx2/utils/gpuFormatToKTXBasisTranscoderFormat.mjs
+// ../../../node_modules/pixi.js/lib/compressed-textures/ktx2/utils/gpuFormatToKTXBasisTranscoderFormat.mjs
 var gpuFormatToBasisTranscoderFormatMap2 = {
   "bc3-rgba-unorm": "BC3_RGBA",
   "bc7-rgba-unorm": "BC7_M5_RGBA",
@@ -10980,7 +10980,7 @@ function gpuFormatToKTXBasisTranscoderFormat(transcoderFormat) {
   throw new Error(`Unsupported transcoderFormat: ${transcoderFormat}`);
 }
 
-// ../../node_modules/pixi.js/lib/compressed-textures/shared/resolveCompressedTextureUrl.mjs
+// ../../../node_modules/pixi.js/lib/compressed-textures/shared/resolveCompressedTextureUrl.mjs
 var validFormats = ["basis", "bc7", "bc6h", "astc", "etc2", "bc5", "bc4", "bc3", "bc2", "bc1", "eac"];
 var resolveCompressedTextureUrl = {
   extension: ExtensionType.ResolveParser,
@@ -11004,7 +11004,7 @@ var resolveCompressedTextureUrl = {
   }
 };
 
-// ../../node_modules/pixi.js/lib/compressed-textures/shared/detectCompressed.mjs
+// ../../../node_modules/pixi.js/lib/compressed-textures/shared/detectCompressed.mjs
 var compressedTextureExtensions;
 var detectCompressed = {
   extension: {
@@ -11052,7 +11052,7 @@ function extractExtensionsForCompressedTextureFormats(formats) {
   return extensions2;
 }
 
-// ../../node_modules/pixi.js/lib/culling/Culler.mjs
+// ../../../node_modules/pixi.js/lib/culling/Culler.mjs
 var tempBounds = new Bounds();
 var tempMatrix = new Matrix();
 var tempRectangle = new Rectangle();
@@ -11115,7 +11115,7 @@ var _Culler = class _Culler2 {
 _Culler.shared = new _Culler();
 var Culler = _Culler;
 
-// ../../node_modules/pixi.js/lib/culling/CullerPlugin.mjs
+// ../../../node_modules/pixi.js/lib/culling/CullerPlugin.mjs
 var CullerPlugin = class {
   /**
    * Initialize the plugin with scope of application instance
@@ -11141,7 +11141,7 @@ CullerPlugin.extension = {
   name: "culler"
 };
 
-// ../../node_modules/pixi.js/lib/dom/DOMPipe.mjs
+// ../../../node_modules/pixi.js/lib/dom/DOMPipe.mjs
 var DOMPipe = class {
   /**
    * Constructor for the DOMPipe class.
@@ -11243,7 +11243,7 @@ DOMPipe.extension = {
   name: "dom"
 };
 
-// ../../node_modules/pixi.js/lib/dom/DOMContainer.mjs
+// ../../../node_modules/pixi.js/lib/dom/DOMContainer.mjs
 extensions.add(DOMPipe);
 var DOMContainer = class extends ViewContainer {
   /**
@@ -11355,7 +11355,7 @@ var DOMContainer = class extends ViewContainer {
   }
 };
 
-// ../../node_modules/pixi.js/lib/environment-webworker/WebWorkerAdapter.mjs
+// ../../../node_modules/pixi.js/lib/environment-webworker/WebWorkerAdapter.mjs
 var import_xmldom = __toESM(require_lib(), 1);
 var WebWorkerAdapter = {
   createCanvas: (width, height) => new OffscreenCanvas(width ?? 0, height ?? 0),
@@ -11372,13 +11372,13 @@ var WebWorkerAdapter = {
   }
 };
 
-// ../../node_modules/pixi.js/lib/filters/defaults/alpha/alpha.frag.mjs
+// ../../../node_modules/pixi.js/lib/filters/defaults/alpha/alpha.frag.mjs
 var fragment3 = "\nin vec2 vTextureCoord;\n\nout vec4 finalColor;\n\nuniform float uAlpha;\nuniform sampler2D uTexture;\n\nvoid main()\n{\n    finalColor =  texture(uTexture, vTextureCoord) * uAlpha;\n}\n";
 
-// ../../node_modules/pixi.js/lib/filters/defaults/alpha/alpha.wgsl.mjs
+// ../../../node_modules/pixi.js/lib/filters/defaults/alpha/alpha.wgsl.mjs
 var source3 = "struct GlobalFilterUniforms {\n  uInputSize:vec4<f32>,\n  uInputPixel:vec4<f32>,\n  uInputClamp:vec4<f32>,\n  uOutputFrame:vec4<f32>,\n  uGlobalFrame:vec4<f32>,\n  uOutputTexture:vec4<f32>,\n};\n\nstruct AlphaUniforms {\n  uAlpha:f32,\n};\n\n@group(0) @binding(0) var<uniform> gfu: GlobalFilterUniforms;\n@group(0) @binding(1) var uTexture: texture_2d<f32>;\n@group(0) @binding(2) var uSampler : sampler;\n\n@group(1) @binding(0) var<uniform> alphaUniforms : AlphaUniforms;\n\nstruct VSOutput {\n    @builtin(position) position: vec4<f32>,\n    @location(0) uv : vec2<f32>\n  };\n\nfn filterVertexPosition(aPosition:vec2<f32>) -> vec4<f32>\n{\n    var position = aPosition * gfu.uOutputFrame.zw + gfu.uOutputFrame.xy;\n\n    position.x = position.x * (2.0 / gfu.uOutputTexture.x) - 1.0;\n    position.y = position.y * (2.0*gfu.uOutputTexture.z / gfu.uOutputTexture.y) - gfu.uOutputTexture.z;\n\n    return vec4(position, 0.0, 1.0);\n}\n\nfn filterTextureCoord( aPosition:vec2<f32> ) -> vec2<f32>\n{\n    return aPosition * (gfu.uOutputFrame.zw * gfu.uInputSize.zw);\n}\n\nfn globalTextureCoord( aPosition:vec2<f32> ) -> vec2<f32>\n{\n  return  (aPosition.xy / gfu.uGlobalFrame.zw) + (gfu.uGlobalFrame.xy / gfu.uGlobalFrame.zw);  \n}\n\nfn getSize() -> vec2<f32>\n{\n  return gfu.uGlobalFrame.zw;\n}\n  \n@vertex\nfn mainVertex(\n  @location(0) aPosition : vec2<f32>, \n) -> VSOutput {\n  return VSOutput(\n   filterVertexPosition(aPosition),\n   filterTextureCoord(aPosition)\n  );\n}\n\n@fragment\nfn mainFragment(\n  @location(0) uv: vec2<f32>,\n  @builtin(position) position: vec4<f32>\n) -> @location(0) vec4<f32> {\n \n    var sample = textureSample(uTexture, uSampler, uv);\n    \n    return sample * alphaUniforms.uAlpha;\n}";
 
-// ../../node_modules/pixi.js/lib/filters/defaults/alpha/AlphaFilter.mjs
+// ../../../node_modules/pixi.js/lib/filters/defaults/alpha/AlphaFilter.mjs
 var _AlphaFilter = class _AlphaFilter2 extends Filter {
   constructor(options) {
     options = __spreadValues(__spreadValues({}, _AlphaFilter2.defaultOptions), options);
@@ -11444,7 +11444,7 @@ _AlphaFilter.defaultOptions = {
 };
 var AlphaFilter = _AlphaFilter;
 
-// ../../node_modules/pixi.js/lib/filters/defaults/blur/const.mjs
+// ../../../node_modules/pixi.js/lib/filters/defaults/blur/const.mjs
 var GAUSSIAN_VALUES = {
   5: [0.153388, 0.221461, 0.250301],
   7: [0.071303, 0.131514, 0.189879, 0.214607],
@@ -11454,7 +11454,7 @@ var GAUSSIAN_VALUES = {
   15: [489e-6, 2403e-6, 9246e-6, 0.02784, 0.065602, 0.120999, 0.174697, 0.197448]
 };
 
-// ../../node_modules/pixi.js/lib/filters/defaults/blur/gl/generateBlurFragSource.mjs
+// ../../../node_modules/pixi.js/lib/filters/defaults/blur/gl/generateBlurFragSource.mjs
 var fragTemplate = [
   "in vec2 vBlurTexCoords[%size%];",
   "uniform sampler2D uTexture;",
@@ -11487,7 +11487,7 @@ function generateBlurFragSource(kernelSize) {
   return fragSource;
 }
 
-// ../../node_modules/pixi.js/lib/filters/defaults/blur/gl/generateBlurVertSource.mjs
+// ../../../node_modules/pixi.js/lib/filters/defaults/blur/gl/generateBlurVertSource.mjs
 var vertTemplate = `
     in vec2 aPosition;
 
@@ -11545,7 +11545,7 @@ function generateBlurVertSource(kernelSize, x) {
   return vertSource;
 }
 
-// ../../node_modules/pixi.js/lib/filters/defaults/blur/gl/generateBlurGlProgram.mjs
+// ../../../node_modules/pixi.js/lib/filters/defaults/blur/gl/generateBlurGlProgram.mjs
 function generateBlurGlProgram(horizontal, kernelSize) {
   const vertex5 = generateBlurVertSource(kernelSize, horizontal);
   const fragment8 = generateBlurFragSource(kernelSize);
@@ -11556,10 +11556,10 @@ function generateBlurGlProgram(horizontal, kernelSize) {
   });
 }
 
-// ../../node_modules/pixi.js/lib/filters/defaults/blur/gpu/blur-template.wgsl.mjs
+// ../../../node_modules/pixi.js/lib/filters/defaults/blur/gpu/blur-template.wgsl.mjs
 var source4 = "\n\nstruct GlobalFilterUniforms {\n  uInputSize:vec4<f32>,\n  uInputPixel:vec4<f32>,\n  uInputClamp:vec4<f32>,\n  uOutputFrame:vec4<f32>,\n  uGlobalFrame:vec4<f32>,\n  uOutputTexture:vec4<f32>,\n};\n\nstruct BlurUniforms {\n  uStrength:f32,\n};\n\n@group(0) @binding(0) var<uniform> gfu: GlobalFilterUniforms;\n@group(0) @binding(1) var uTexture: texture_2d<f32>;\n@group(0) @binding(2) var uSampler : sampler;\n\n@group(1) @binding(0) var<uniform> blurUniforms : BlurUniforms;\n\n\nstruct VSOutput {\n    @builtin(position) position: vec4<f32>,\n    %blur-struct%\n  };\n\nfn filterVertexPosition(aPosition:vec2<f32>) -> vec4<f32>\n{\n    var position = aPosition * gfu.uOutputFrame.zw + gfu.uOutputFrame.xy;\n\n    position.x = position.x * (2.0 / gfu.uOutputTexture.x) - 1.0;\n    position.y = position.y * (2.0*gfu.uOutputTexture.z / gfu.uOutputTexture.y) - gfu.uOutputTexture.z;\n\n    return vec4(position, 0.0, 1.0);\n}\n\nfn filterTextureCoord( aPosition:vec2<f32> ) -> vec2<f32>\n{\n    return aPosition * (gfu.uOutputFrame.zw * gfu.uInputSize.zw);\n}\n\nfn globalTextureCoord( aPosition:vec2<f32> ) -> vec2<f32>\n{\n  return  (aPosition.xy / gfu.uGlobalFrame.zw) + (gfu.uGlobalFrame.xy / gfu.uGlobalFrame.zw);  \n}\n\nfn getSize() -> vec2<f32>\n{\n  return gfu.uGlobalFrame.zw;\n}\n\n\n@vertex\nfn mainVertex(\n  @location(0) aPosition : vec2<f32>, \n) -> VSOutput {\n\n  let filteredCord = filterTextureCoord(aPosition);\n\n  let pixelStrength = gfu.uInputSize.%dimension% * blurUniforms.uStrength;\n\n  return VSOutput(\n   filterVertexPosition(aPosition),\n    %blur-vertex-out%\n  );\n}\n\n@fragment\nfn mainFragment(\n  @builtin(position) position: vec4<f32>,\n  %blur-fragment-in%\n) -> @location(0) vec4<f32> {\n\n    var   finalColor = vec4(0.0);\n\n    %blur-sampling%\n\n    return finalColor;\n}";
 
-// ../../node_modules/pixi.js/lib/filters/defaults/blur/gpu/generateBlurProgram.mjs
+// ../../../node_modules/pixi.js/lib/filters/defaults/blur/gpu/generateBlurProgram.mjs
 function generateBlurProgram(horizontal, kernelSize) {
   const kernel = GAUSSIAN_VALUES[kernelSize];
   const halfLength = kernel.length;
@@ -11593,7 +11593,7 @@ function generateBlurProgram(horizontal, kernelSize) {
   });
 }
 
-// ../../node_modules/pixi.js/lib/filters/defaults/blur/BlurFilterPass.mjs
+// ../../../node_modules/pixi.js/lib/filters/defaults/blur/BlurFilterPass.mjs
 var _BlurFilterPass = class _BlurFilterPass2 extends Filter {
   /**
    * @param options
@@ -11683,7 +11683,7 @@ _BlurFilterPass.defaultOptions = {
 };
 var BlurFilterPass = _BlurFilterPass;
 
-// ../../node_modules/pixi.js/lib/filters/defaults/blur/BlurFilter.mjs
+// ../../../node_modules/pixi.js/lib/filters/defaults/blur/BlurFilter.mjs
 var BlurFilter = class extends Filter {
   constructor(...args) {
     let options = args[0] ?? {};
@@ -11894,13 +11894,13 @@ BlurFilter.defaultOptions = {
   kernelSize: 5
 };
 
-// ../../node_modules/pixi.js/lib/filters/defaults/color-matrix/colorMatrixFilter.frag.mjs
+// ../../../node_modules/pixi.js/lib/filters/defaults/color-matrix/colorMatrixFilter.frag.mjs
 var fragment4 = "\nin vec2 vTextureCoord;\nin vec4 vColor;\n\nout vec4 finalColor;\n\nuniform float uColorMatrix[20];\nuniform float uAlpha;\n\nuniform sampler2D uTexture;\n\nfloat rand(vec2 co)\n{\n    return fract(sin(dot(co.xy, vec2(12.9898, 78.233))) * 43758.5453);\n}\n\nvoid main()\n{\n    vec4 color = texture(uTexture, vTextureCoord);\n    float randomValue = rand(gl_FragCoord.xy * 0.2);\n    float diff = (randomValue - 0.5) *  0.5;\n\n    if (uAlpha == 0.0) {\n        finalColor = color;\n        return;\n    }\n\n    if (color.a > 0.0) {\n        color.rgb /= color.a;\n    }\n\n    vec4 result;\n\n    result.r = (uColorMatrix[0] * color.r);\n        result.r += (uColorMatrix[1] * color.g);\n        result.r += (uColorMatrix[2] * color.b);\n        result.r += (uColorMatrix[3] * color.a);\n        result.r += uColorMatrix[4];\n\n    result.g = (uColorMatrix[5] * color.r);\n        result.g += (uColorMatrix[6] * color.g);\n        result.g += (uColorMatrix[7] * color.b);\n        result.g += (uColorMatrix[8] * color.a);\n        result.g += uColorMatrix[9];\n\n    result.b = (uColorMatrix[10] * color.r);\n       result.b += (uColorMatrix[11] * color.g);\n       result.b += (uColorMatrix[12] * color.b);\n       result.b += (uColorMatrix[13] * color.a);\n       result.b += uColorMatrix[14];\n\n    result.a = (uColorMatrix[15] * color.r);\n       result.a += (uColorMatrix[16] * color.g);\n       result.a += (uColorMatrix[17] * color.b);\n       result.a += (uColorMatrix[18] * color.a);\n       result.a += uColorMatrix[19];\n\n    vec3 rgb = mix(color.rgb, result.rgb, uAlpha);\n\n    // Premultiply alpha again.\n    rgb *= result.a;\n\n    finalColor = vec4(rgb, result.a);\n}\n";
 
-// ../../node_modules/pixi.js/lib/filters/defaults/color-matrix/colorMatrixFilter.wgsl.mjs
+// ../../../node_modules/pixi.js/lib/filters/defaults/color-matrix/colorMatrixFilter.wgsl.mjs
 var source5 = "struct GlobalFilterUniforms {\n  uInputSize:vec4<f32>,\n  uInputPixel:vec4<f32>,\n  uInputClamp:vec4<f32>,\n  uOutputFrame:vec4<f32>,\n  uGlobalFrame:vec4<f32>,\n  uOutputTexture:vec4<f32>,\n};\n\nstruct ColorMatrixUniforms {\n  uColorMatrix:array<vec4<f32>, 5>,\n  uAlpha:f32,\n};\n\n\n@group(0) @binding(0) var<uniform> gfu: GlobalFilterUniforms;\n@group(0) @binding(1) var uTexture: texture_2d<f32>;\n@group(0) @binding(2) var uSampler : sampler;\n@group(1) @binding(0) var<uniform> colorMatrixUniforms : ColorMatrixUniforms;\n\n\nstruct VSOutput {\n    @builtin(position) position: vec4<f32>,\n    @location(0) uv : vec2<f32>,\n  };\n  \nfn filterVertexPosition(aPosition:vec2<f32>) -> vec4<f32>\n{\n    var position = aPosition * gfu.uOutputFrame.zw + gfu.uOutputFrame.xy;\n\n    position.x = position.x * (2.0 / gfu.uOutputTexture.x) - 1.0;\n    position.y = position.y * (2.0*gfu.uOutputTexture.z / gfu.uOutputTexture.y) - gfu.uOutputTexture.z;\n\n    return vec4(position, 0.0, 1.0);\n}\n\nfn filterTextureCoord( aPosition:vec2<f32> ) -> vec2<f32>\n{\n  return aPosition * (gfu.uOutputFrame.zw * gfu.uInputSize.zw);\n}\n\n@vertex\nfn mainVertex(\n  @location(0) aPosition : vec2<f32>, \n) -> VSOutput {\n  return VSOutput(\n   filterVertexPosition(aPosition),\n   filterTextureCoord(aPosition),\n  );\n}\n\n\n@fragment\nfn mainFragment(\n  @location(0) uv: vec2<f32>,\n) -> @location(0) vec4<f32> {\n\n\n  var c = textureSample(uTexture, uSampler, uv);\n  \n  if (colorMatrixUniforms.uAlpha == 0.0) {\n    return c;\n  }\n\n \n    // Un-premultiply alpha before applying the color matrix. See issue #3539.\n    if (c.a > 0.0) {\n      c.r /= c.a;\n      c.g /= c.a;\n      c.b /= c.a;\n    }\n\n    var cm = colorMatrixUniforms.uColorMatrix;\n\n\n    var result = vec4<f32>(0.);\n\n    result.r = (cm[0][0] * c.r);\n    result.r += (cm[0][1] * c.g);\n    result.r += (cm[0][2] * c.b);\n    result.r += (cm[0][3] * c.a);\n    result.r += cm[1][0];\n\n    result.g = (cm[1][1] * c.r);\n    result.g += (cm[1][2] * c.g);\n    result.g += (cm[1][3] * c.b);\n    result.g += (cm[2][0] * c.a);\n    result.g += cm[2][1];\n\n    result.b = (cm[2][2] * c.r);\n    result.b += (cm[2][3] * c.g);\n    result.b += (cm[3][0] * c.b);\n    result.b += (cm[3][1] * c.a);\n    result.b += cm[3][2];\n\n    result.a = (cm[3][3] * c.r);\n    result.a += (cm[4][0] * c.g);\n    result.a += (cm[4][1] * c.b);\n    result.a += (cm[4][2] * c.a);\n    result.a += cm[4][3];\n\n    var rgb = mix(c.rgb, result.rgb, colorMatrixUniforms.uAlpha);\n\n    rgb.r *= result.a;\n    rgb.g *= result.a;\n    rgb.b *= result.a;\n\n    return vec4(rgb, result.a);\n}";
 
-// ../../node_modules/pixi.js/lib/filters/defaults/color-matrix/ColorMatrixFilter.mjs
+// ../../../node_modules/pixi.js/lib/filters/defaults/color-matrix/ColorMatrixFilter.mjs
 var ColorMatrixFilter = class extends Filter {
   constructor(options = {}) {
     const colorMatrixUniforms = new UniformGroup({
@@ -13117,16 +13117,16 @@ var ColorMatrixFilter = class extends Filter {
   }
 };
 
-// ../../node_modules/pixi.js/lib/filters/defaults/displacement/displacement.frag.mjs
+// ../../../node_modules/pixi.js/lib/filters/defaults/displacement/displacement.frag.mjs
 var fragment5 = "\nin vec2 vTextureCoord;\nin vec2 vFilterUv;\n\nout vec4 finalColor;\n\nuniform sampler2D uTexture;\nuniform sampler2D uMapTexture;\n\nuniform vec4 uInputClamp;\nuniform highp vec4 uInputSize;\nuniform mat2 uRotation;\nuniform vec2 uScale;\n\nvoid main()\n{\n    vec4 map = texture(uMapTexture, vFilterUv);\n    \n    vec2 offset = uInputSize.zw * (uRotation * (map.xy - 0.5)) * uScale; \n\n    finalColor = texture(uTexture, clamp(vTextureCoord + offset, uInputClamp.xy, uInputClamp.zw));\n}\n";
 
-// ../../node_modules/pixi.js/lib/filters/defaults/displacement/displacement.vert.mjs
+// ../../../node_modules/pixi.js/lib/filters/defaults/displacement/displacement.vert.mjs
 var vertex3 = "in vec2 aPosition;\nout vec2 vTextureCoord;\nout vec2 vFilterUv;\n\n\nuniform vec4 uInputSize;\nuniform vec4 uOutputFrame;\nuniform vec4 uOutputTexture;\n\nuniform mat3 uFilterMatrix;\n\nvec4 filterVertexPosition( void )\n{\n    vec2 position = aPosition * uOutputFrame.zw + uOutputFrame.xy;\n    \n    position.x = position.x * (2.0 / uOutputTexture.x) - 1.0;\n    position.y = position.y * (2.0*uOutputTexture.z / uOutputTexture.y) - uOutputTexture.z;\n\n    return vec4(position, 0.0, 1.0);\n}\n\nvec2 filterTextureCoord( void )\n{\n    return aPosition * (uOutputFrame.zw * uInputSize.zw);\n}\n\nvec2 getFilterCoord( void )\n{\n  return ( uFilterMatrix * vec3( filterTextureCoord(), 1.0)  ).xy;\n}\n\n\nvoid main(void)\n{\n    gl_Position = filterVertexPosition();\n    vTextureCoord = filterTextureCoord();\n    vFilterUv = getFilterCoord();\n}\n";
 
-// ../../node_modules/pixi.js/lib/filters/defaults/displacement/displacement.wgsl.mjs
+// ../../../node_modules/pixi.js/lib/filters/defaults/displacement/displacement.wgsl.mjs
 var source6 = "\nstruct GlobalFilterUniforms {\n  uInputSize:vec4<f32>,\n  uInputPixel:vec4<f32>,\n  uInputClamp:vec4<f32>,\n  uOutputFrame:vec4<f32>,\n  uGlobalFrame:vec4<f32>,\n  uOutputTexture:vec4<f32>,\n};\n\nstruct DisplacementUniforms {\n  uFilterMatrix:mat3x3<f32>,\n  uScale:vec2<f32>,\n  uRotation:mat2x2<f32>\n};\n\n\n\n@group(0) @binding(0) var<uniform> gfu: GlobalFilterUniforms;\n@group(0) @binding(1) var uTexture: texture_2d<f32>;\n@group(0) @binding(2) var uSampler : sampler;\n\n@group(1) @binding(0) var<uniform> filterUniforms : DisplacementUniforms;\n@group(1) @binding(1) var uMapTexture: texture_2d<f32>;\n@group(1) @binding(2) var uMapSampler : sampler;\n\nstruct VSOutput {\n    @builtin(position) position: vec4<f32>,\n    @location(0) uv : vec2<f32>,\n    @location(1) filterUv : vec2<f32>,\n  };\n\nfn filterVertexPosition(aPosition:vec2<f32>) -> vec4<f32>\n{\n    var position = aPosition * gfu.uOutputFrame.zw + gfu.uOutputFrame.xy;\n\n    position.x = position.x * (2.0 / gfu.uOutputTexture.x) - 1.0;\n    position.y = position.y * (2.0*gfu.uOutputTexture.z / gfu.uOutputTexture.y) - gfu.uOutputTexture.z;\n\n    return vec4(position, 0.0, 1.0);\n}\n\nfn filterTextureCoord( aPosition:vec2<f32> ) -> vec2<f32>\n{\n    return aPosition * (gfu.uOutputFrame.zw * gfu.uInputSize.zw);\n}\n\nfn globalTextureCoord( aPosition:vec2<f32> ) -> vec2<f32>\n{\n  return  (aPosition.xy / gfu.uGlobalFrame.zw) + (gfu.uGlobalFrame.xy / gfu.uGlobalFrame.zw);  \n}\n\nfn getFilterCoord(aPosition:vec2<f32> ) -> vec2<f32>\n{\n  return ( filterUniforms.uFilterMatrix * vec3( filterTextureCoord(aPosition), 1.0)  ).xy;\n}\n\nfn getSize() -> vec2<f32>\n{\n\n  \n  return gfu.uGlobalFrame.zw;\n}\n  \n@vertex\nfn mainVertex(\n  @location(0) aPosition : vec2<f32>, \n) -> VSOutput {\n  return VSOutput(\n   filterVertexPosition(aPosition),\n   filterTextureCoord(aPosition),\n   getFilterCoord(aPosition)\n  );\n}\n\n@fragment\nfn mainFragment(\n  @location(0) uv: vec2<f32>,\n  @location(1) filterUv: vec2<f32>,\n  @builtin(position) position: vec4<f32>\n) -> @location(0) vec4<f32> {\n\n    var map = textureSample(uMapTexture, uMapSampler, filterUv);\n\n    var offset =  gfu.uInputSize.zw * (filterUniforms.uRotation * (map.xy - 0.5)) * filterUniforms.uScale; \n   \n    return textureSample(uTexture, uSampler, clamp(uv + offset, gfu.uInputClamp.xy, gfu.uInputClamp.zw));\n}";
 
-// ../../node_modules/pixi.js/lib/filters/defaults/displacement/DisplacementFilter.mjs
+// ../../../node_modules/pixi.js/lib/filters/defaults/displacement/DisplacementFilter.mjs
 var DisplacementFilter = class extends Filter {
   constructor(...args) {
     let options = args[0];
@@ -13224,13 +13224,13 @@ var DisplacementFilter = class extends Filter {
   }
 };
 
-// ../../node_modules/pixi.js/lib/filters/defaults/noise/noise.frag.mjs
+// ../../../node_modules/pixi.js/lib/filters/defaults/noise/noise.frag.mjs
 var fragment6 = "\nin vec2 vTextureCoord;\nin vec4 vColor;\n\nout vec4 finalColor;\n\nuniform float uNoise;\nuniform float uSeed;\nuniform sampler2D uTexture;\n\nfloat rand(vec2 co)\n{\n    return fract(sin(dot(co.xy, vec2(12.9898, 78.233))) * 43758.5453);\n}\n\nvoid main()\n{\n    vec4 color = texture(uTexture, vTextureCoord);\n    float randomValue = rand(gl_FragCoord.xy * uSeed);\n    float diff = (randomValue - 0.5) *  uNoise;\n\n    // Un-premultiply alpha before applying the color matrix. See issue #3539.\n    if (color.a > 0.0) {\n        color.rgb /= color.a;\n    }\n\n    color.r += diff;\n    color.g += diff;\n    color.b += diff;\n\n    // Premultiply alpha again.\n    color.rgb *= color.a;\n\n    finalColor = color;\n}\n";
 
-// ../../node_modules/pixi.js/lib/filters/defaults/noise/noise.wgsl.mjs
+// ../../../node_modules/pixi.js/lib/filters/defaults/noise/noise.wgsl.mjs
 var source7 = "\n\nstruct GlobalFilterUniforms {\n  uInputSize:vec4<f32>,\n  uInputPixel:vec4<f32>,\n  uInputClamp:vec4<f32>,\n  uOutputFrame:vec4<f32>,\n  uGlobalFrame:vec4<f32>,\n  uOutputTexture:vec4<f32>,\n};\n\nstruct NoiseUniforms {\n  uNoise:f32,\n  uSeed:f32,\n};\n\n@group(0) @binding(0) var<uniform> gfu: GlobalFilterUniforms;\n@group(0) @binding(1) var uTexture: texture_2d<f32>;\n@group(0) @binding(2) var uSampler : sampler;\n\n@group(1) @binding(0) var<uniform> noiseUniforms : NoiseUniforms;\n\nstruct VSOutput {\n    @builtin(position) position: vec4<f32>,\n    @location(0) uv : vec2<f32>\n  };\n\nfn filterVertexPosition(aPosition:vec2<f32>) -> vec4<f32>\n{\n    var position = aPosition * gfu.uOutputFrame.zw + gfu.uOutputFrame.xy;\n\n    position.x = position.x * (2.0 / gfu.uOutputTexture.x) - 1.0;\n    position.y = position.y * (2.0*gfu.uOutputTexture.z / gfu.uOutputTexture.y) - gfu.uOutputTexture.z;\n\n    return vec4(position, 0.0, 1.0);\n}\n\nfn filterTextureCoord( aPosition:vec2<f32> ) -> vec2<f32>\n{\n    return aPosition * (gfu.uOutputFrame.zw * gfu.uInputSize.zw);\n}\n\nfn globalTextureCoord( aPosition:vec2<f32> ) -> vec2<f32>\n{\n  return  (aPosition.xy / gfu.uGlobalFrame.zw) + (gfu.uGlobalFrame.xy / gfu.uGlobalFrame.zw);  \n}\n\nfn getSize() -> vec2<f32>\n{\n  return gfu.uGlobalFrame.zw;\n}\n  \n@vertex\nfn mainVertex(\n  @location(0) aPosition : vec2<f32>, \n) -> VSOutput {\n  return VSOutput(\n   filterVertexPosition(aPosition),\n   filterTextureCoord(aPosition)\n  );\n}\n\nfn rand(co:vec2<f32>) -> f32\n{\n  return fract(sin(dot(co.xy, vec2(12.9898, 78.233))) * 43758.5453);\n}\n\n\n\n@fragment\nfn mainFragment(\n  @location(0) uv: vec2<f32>,\n  @builtin(position) position: vec4<f32>\n) -> @location(0) vec4<f32> {\n\n    var pixelPosition =  globalTextureCoord(position.xy);// / (getSize());//-  gfu.uOutputFrame.xy);\n  \n    \n    var sample = textureSample(uTexture, uSampler, uv);\n    var randomValue =  rand(pixelPosition.xy * noiseUniforms.uSeed);\n    var diff = (randomValue - 0.5) * noiseUniforms.uNoise;\n  \n    // Un-premultiply alpha before applying the color matrix. See issue #3539.\n    if (sample.a > 0.0) {\n      sample.r /= sample.a;\n      sample.g /= sample.a;\n      sample.b /= sample.a;\n    }\n\n    sample.r += diff;\n    sample.g += diff;\n    sample.b += diff;\n\n    // Premultiply alpha again.\n    sample.r *= sample.a;\n    sample.g *= sample.a;\n    sample.b *= sample.a;\n    \n    return sample;\n}";
 
-// ../../node_modules/pixi.js/lib/filters/defaults/noise/NoiseFilter.mjs
+// ../../../node_modules/pixi.js/lib/filters/defaults/noise/NoiseFilter.mjs
 var _NoiseFilter = class _NoiseFilter2 extends Filter {
   /**
    * @param options - The options of the noise filter.
@@ -13322,10 +13322,10 @@ _NoiseFilter.defaultOptions = {
 };
 var NoiseFilter = _NoiseFilter;
 
-// ../../node_modules/pixi.js/lib/filters/blend-modes/hsl.wgsl.mjs
+// ../../../node_modules/pixi.js/lib/filters/blend-modes/hsl.wgsl.mjs
 var hsl = "fn getLuminosity(c: vec3<f32>) -> f32 {\n  return 0.3 * c.r + 0.59 * c.g + 0.11 * c.b;\n}\n\nfn setLuminosity(c: vec3<f32>, lum: f32) -> vec3<f32> {\n  let d: f32 = lum - getLuminosity(c);\n  let newColor: vec3<f32> = c.rgb + vec3<f32>(d, d, d);\n\n  // clip back into legal range\n  let newLum: f32 = getLuminosity(newColor);\n  let cMin: f32 = min(newColor.r, min(newColor.g, newColor.b));\n  let cMax: f32 = max(newColor.r, max(newColor.g, newColor.b));\n\n  let t1: f32 = newLum / (newLum - cMin);\n  let t2: f32 = (1.0 - newLum) / (cMax - newLum);\n\n  let finalColor = mix(vec3<f32>(newLum, newLum, newLum), newColor, select(select(1.0, t2, cMax > 1.0), t1, cMin < 0.0));\n\n  return finalColor;\n}\n\nfn getSaturation(c: vec3<f32>) -> f32 {\n  return max(c.r, max(c.g, c.b)) - min(c.r, min(c.g, c.b));\n}\n\n// Set saturation if color components are sorted in ascending order.\nfn setSaturationMinMidMax(cSorted: vec3<f32>, s: f32) -> vec3<f32> {\n  var result: vec3<f32>;\n  if (cSorted.z > cSorted.x) {\n    let newY = (((cSorted.y - cSorted.x) * s) / (cSorted.z - cSorted.x));\n    result = vec3<f32>(0.0, newY, s);\n  } else {\n    result = vec3<f32>(0.0, 0.0, 0.0);\n  }\n  return vec3<f32>(result.x, result.y, result.z);\n}\n\nfn setSaturation(c: vec3<f32>, s: f32) -> vec3<f32> {\n    var result: vec3<f32> = c;\n\n    if (c.r <= c.g && c.r <= c.b) {\n        if (c.g <= c.b) {\n            result = setSaturationMinMidMax(result, s);\n        } else {\n            var temp: vec3<f32> = vec3<f32>(result.r, result.b, result.g);\n            temp = setSaturationMinMidMax(temp, s);\n            result = vec3<f32>(temp.r, temp.b, temp.g);\n        }\n    } else if (c.g <= c.r && c.g <= c.b) {\n        if (c.r <= c.b) {\n            var temp: vec3<f32> = vec3<f32>(result.g, result.r, result.b);\n            temp = setSaturationMinMidMax(temp, s);\n            result = vec3<f32>(temp.g, temp.r, temp.b);\n        } else {\n            var temp: vec3<f32> = vec3<f32>(result.g, result.b, result.r);\n            temp = setSaturationMinMidMax(temp, s);\n            result = vec3<f32>(temp.g, temp.b, temp.r);\n        }\n    } else {\n        if (c.r <= c.g) {\n            var temp: vec3<f32> = vec3<f32>(result.b, result.r, result.g);\n            temp = setSaturationMinMidMax(temp, s);\n            result = vec3<f32>(temp.b, temp.r, temp.g);\n        } else {\n            var temp: vec3<f32> = vec3<f32>(result.b, result.g, result.r);\n            temp = setSaturationMinMidMax(temp, s);\n            result = vec3<f32>(temp.b, temp.g, temp.r);\n        }\n    }\n\n    return result;\n}";
 
-// ../../node_modules/pixi.js/lib/prepare/PrepareBase.mjs
+// ../../../node_modules/pixi.js/lib/prepare/PrepareBase.mjs
 var _PrepareBase = class _PrepareBase2 {
   /**
    * @param {Renderer} renderer - A reference to the current renderer
@@ -13434,7 +13434,7 @@ var _PrepareBase = class _PrepareBase2 {
 _PrepareBase.uploadsPerFrame = 4;
 var PrepareBase = _PrepareBase;
 
-// ../../node_modules/pixi.js/lib/scene/mesh/shared/MeshGeometry.mjs
+// ../../../node_modules/pixi.js/lib/scene/mesh/shared/MeshGeometry.mjs
 var _MeshGeometry = class _MeshGeometry2 extends Geometry {
   constructor(...args) {
     let options = args[0] ?? {};
@@ -13536,7 +13536,7 @@ _MeshGeometry.defaultOptions = {
 };
 var MeshGeometry = _MeshGeometry;
 
-// ../../node_modules/pixi.js/lib/scene/mesh/shared/BatchableMesh.mjs
+// ../../../node_modules/pixi.js/lib/scene/mesh/shared/BatchableMesh.mjs
 var BatchableMesh = class {
   constructor() {
     this.batcherName = "default";
@@ -13617,7 +13617,7 @@ var BatchableMesh = class {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/mesh/shared/MeshPipe.mjs
+// ../../../node_modules/pixi.js/lib/scene/mesh/shared/MeshPipe.mjs
 var MeshGpuData = class {
   destroy() {
   }
@@ -13743,10 +13743,10 @@ MeshPipe.extension = {
   name: "mesh"
 };
 
-// ../../node_modules/pixi.js/lib/scene/mesh/init.mjs
+// ../../../node_modules/pixi.js/lib/scene/mesh/init.mjs
 extensions.add(MeshPipe);
 
-// ../../node_modules/pixi.js/lib/scene/mesh/shared/Mesh.mjs
+// ../../../node_modules/pixi.js/lib/scene/mesh/shared/Mesh.mjs
 var Mesh = class extends ViewContainer {
   constructor(...args) {
     let options = args[0];
@@ -13922,7 +13922,7 @@ var Mesh = class extends ViewContainer {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/sprite-animated/AnimatedSprite.mjs
+// ../../../node_modules/pixi.js/lib/scene/sprite-animated/AnimatedSprite.mjs
 var AnimatedSprite = class _AnimatedSprite extends Sprite {
   constructor(...args) {
     let options = args[0];
@@ -14461,7 +14461,7 @@ var AnimatedSprite = class _AnimatedSprite extends Sprite {
   }
 };
 
-// ../../node_modules/pixi.js/lib/utils/misc/Transform.mjs
+// ../../../node_modules/pixi.js/lib/utils/misc/Transform.mjs
 var Transform = class {
   /**
    * @param options - Options for the transform.
@@ -14583,7 +14583,7 @@ var Transform = class {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/sprite-tiling/canvas/CanvasTilingSpritePipe.mjs
+// ../../../node_modules/pixi.js/lib/scene/sprite-tiling/canvas/CanvasTilingSpritePipe.mjs
 var worldMatrix = new Matrix();
 var patternMatrix = new Matrix();
 var patternRect = [new Point(), new Point(), new Point(), new Point()];
@@ -14666,7 +14666,7 @@ CanvasTilingSpritePipe.extension = {
   name: "tilingSprite"
 };
 
-// ../../node_modules/pixi.js/lib/scene/sprite-tiling/shader/tilingBit.mjs
+// ../../../node_modules/pixi.js/lib/scene/sprite-tiling/shader/tilingBit.mjs
 var tilingBit = {
   name: "tiling-bit",
   vertex: {
@@ -14779,7 +14779,7 @@ var tilingBitGl = {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/sprite-tiling/shader/TilingSpriteShader.mjs
+// ../../../node_modules/pixi.js/lib/scene/sprite-tiling/shader/TilingSpriteShader.mjs
 var gpuProgram;
 var glProgram;
 var TilingSpriteShader = class extends Shader {
@@ -14852,7 +14852,7 @@ var TilingSpriteShader = class extends Shader {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/sprite-tiling/utils/QuadGeometry.mjs
+// ../../../node_modules/pixi.js/lib/scene/sprite-tiling/utils/QuadGeometry.mjs
 var QuadGeometry = class extends MeshGeometry {
   constructor() {
     super({
@@ -14863,7 +14863,7 @@ var QuadGeometry = class extends MeshGeometry {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/sprite-tiling/utils/setPositions.mjs
+// ../../../node_modules/pixi.js/lib/scene/sprite-tiling/utils/setPositions.mjs
 function setPositions(tilingSprite, positions) {
   const anchorX = tilingSprite.anchor.x;
   const anchorY = tilingSprite.anchor.y;
@@ -14877,7 +14877,7 @@ function setPositions(tilingSprite, positions) {
   positions[7] = (1 - anchorY) * tilingSprite.height;
 }
 
-// ../../node_modules/pixi.js/lib/scene/sprite-tiling/utils/applyMatrix.mjs
+// ../../../node_modules/pixi.js/lib/scene/sprite-tiling/utils/applyMatrix.mjs
 function applyMatrix(array, stride, offset, matrix) {
   let index = 0;
   const size = array.length / (stride || 2);
@@ -14898,7 +14898,7 @@ function applyMatrix(array, stride, offset, matrix) {
   }
 }
 
-// ../../node_modules/pixi.js/lib/scene/sprite-tiling/utils/setUvs.mjs
+// ../../../node_modules/pixi.js/lib/scene/sprite-tiling/utils/setUvs.mjs
 function setUvs(tilingSprite, uvs) {
   const texture = tilingSprite.texture;
   const width = texture.frame.width;
@@ -14922,7 +14922,7 @@ function setUvs(tilingSprite, uvs) {
   applyMatrix(uvs, 2, 0, textureMatrix);
 }
 
-// ../../node_modules/pixi.js/lib/scene/sprite-tiling/TilingSpritePipe.mjs
+// ../../../node_modules/pixi.js/lib/scene/sprite-tiling/TilingSpritePipe.mjs
 var sharedQuad = new QuadGeometry();
 var TilingSpriteGpuData = class {
   constructor() {
@@ -15064,11 +15064,11 @@ TilingSpritePipe.extension = {
   name: "tilingSprite"
 };
 
-// ../../node_modules/pixi.js/lib/scene/sprite-tiling/init.mjs
+// ../../../node_modules/pixi.js/lib/scene/sprite-tiling/init.mjs
 extensions.add(CanvasTilingSpritePipe);
 extensions.add(TilingSpritePipe);
 
-// ../../node_modules/pixi.js/lib/scene/sprite-tiling/TilingSprite.mjs
+// ../../../node_modules/pixi.js/lib/scene/sprite-tiling/TilingSprite.mjs
 var _TilingSprite = class _TilingSprite2 extends ViewContainer {
   constructor(...args) {
     let options = args[0] || {};
@@ -15539,7 +15539,7 @@ _TilingSprite.defaultOptions = {
 };
 var TilingSprite = _TilingSprite;
 
-// ../../node_modules/pixi.js/lib/scene/text/AbstractText.mjs
+// ../../../node_modules/pixi.js/lib/scene/text/AbstractText.mjs
 var AbstractText = class extends ViewContainer {
   constructor(options, styleClass) {
     const _a = options, { text, resolution, style, anchor, width, height, roundPixels } = _a, rest = __objRest(_a, ["text", "resolution", "style", "anchor", "width", "height", "roundPixels"]);
@@ -15889,7 +15889,7 @@ function ensureTextOptions(args, name) {
   return options;
 }
 
-// ../../node_modules/pixi.js/lib/utils/canvas/getCanvasBoundingBox.mjs
+// ../../../node_modules/pixi.js/lib/utils/canvas/getCanvasBoundingBox.mjs
 var _internalCanvas = null;
 var _internalContext = null;
 function ensureInternalCanvas(width, height) {
@@ -15963,7 +15963,7 @@ function getCanvasBoundingBox(...args) {
   return output;
 }
 
-// ../../node_modules/pixi.js/lib/scene/text/canvas/CanvasTextGenerator.mjs
+// ../../../node_modules/pixi.js/lib/scene/text/canvas/CanvasTextGenerator.mjs
 var tempRect = new Rectangle();
 var CanvasTextGeneratorClass = class {
   /**
@@ -16389,7 +16389,7 @@ var CanvasTextGeneratorClass = class {
 };
 var CanvasTextGenerator = new CanvasTextGeneratorClass();
 
-// ../../node_modules/pixi.js/lib/scene/text/utils/updateTextBounds.mjs
+// ../../../node_modules/pixi.js/lib/scene/text/utils/updateTextBounds.mjs
 function updateTextBounds(batchableSprite, text) {
   const { texture, bounds } = batchableSprite;
   const padding = text._style._getFinalPadding();
@@ -16402,11 +16402,11 @@ function updateTextBounds(batchableSprite, text) {
   bounds.maxY -= padding - paddingOffsetY;
 }
 
-// ../../node_modules/pixi.js/lib/scene/text/canvas/BatchableText.mjs
+// ../../../node_modules/pixi.js/lib/scene/text/canvas/BatchableText.mjs
 var BatchableText = class extends BatchableSprite {
 };
 
-// ../../node_modules/pixi.js/lib/scene/text/canvas/CanvasTextPipe.mjs
+// ../../../node_modules/pixi.js/lib/scene/text/canvas/CanvasTextPipe.mjs
 var CanvasTextPipe = class {
   constructor(renderer) {
     this._renderer = renderer;
@@ -16494,7 +16494,7 @@ CanvasTextPipe.extension = {
   name: "text"
 };
 
-// ../../node_modules/pixi.js/lib/scene/text/utils/getPo2TextureFromSource.mjs
+// ../../../node_modules/pixi.js/lib/scene/text/utils/getPo2TextureFromSource.mjs
 var tempBounds2 = new Bounds();
 function getPo2TextureFromSource(image, width, height, resolution) {
   const bounds = tempBounds2;
@@ -16518,7 +16518,7 @@ function getPo2TextureFromSource(image, width, height, resolution) {
   return texture;
 }
 
-// ../../node_modules/pixi.js/lib/scene/text/shared/AbstractTextSystem.mjs
+// ../../../node_modules/pixi.js/lib/scene/text/shared/AbstractTextSystem.mjs
 var AbstractTextSystem = class {
   constructor(renderer, retainCanvasContext) {
     this._activeTextures = {};
@@ -16685,7 +16685,7 @@ var AbstractTextSystem = class {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/text/canvas/CanvasTextSystem.mjs
+// ../../../node_modules/pixi.js/lib/scene/text/canvas/CanvasTextSystem.mjs
 var CanvasRendererTextSystem = class extends AbstractTextSystem {
   constructor(renderer) {
     super(renderer, true);
@@ -16698,7 +16698,7 @@ CanvasRendererTextSystem.extension = {
   name: "canvasText"
 };
 
-// ../../node_modules/pixi.js/lib/scene/text/shared/GpuTextSystem.mjs
+// ../../../node_modules/pixi.js/lib/scene/text/shared/GpuTextSystem.mjs
 var CanvasTextSystem = class extends AbstractTextSystem {
   constructor(renderer) {
     super(renderer, false);
@@ -16712,12 +16712,12 @@ CanvasTextSystem.extension = {
   name: "canvasText"
 };
 
-// ../../node_modules/pixi.js/lib/scene/text/init.mjs
+// ../../../node_modules/pixi.js/lib/scene/text/init.mjs
 extensions.add(CanvasRendererTextSystem);
 extensions.add(CanvasTextSystem);
 extensions.add(CanvasTextPipe);
 
-// ../../node_modules/pixi.js/lib/scene/text/Text.mjs
+// ../../../node_modules/pixi.js/lib/scene/text/Text.mjs
 var Text = class extends AbstractText {
   constructor(...args) {
     const options = ensureTextOptions(args, "Text");
@@ -16757,7 +16757,7 @@ var Text = class extends AbstractText {
   }
 };
 
-// ../../node_modules/pixi.js/lib/prepare/PrepareQueue.mjs
+// ../../../node_modules/pixi.js/lib/prepare/PrepareQueue.mjs
 var PrepareQueue = class extends PrepareBase {
   /**
    * Resolve the given resource type and return an item for the queue
@@ -16816,7 +16816,7 @@ var PrepareQueue = class extends PrepareBase {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/text-bitmap/AbstractBitmapTextPipe.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-bitmap/AbstractBitmapTextPipe.mjs
 var BitmapTextGraphics = class extends Graphics {
   destroy() {
     if (this.context.customShader) {
@@ -16950,7 +16950,7 @@ function syncWithProxy(container, proxy) {
   proxy._roundPixels = container._roundPixels;
 }
 
-// ../../node_modules/pixi.js/lib/scene/text-bitmap/CanvasBitmapTextPipe.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-bitmap/CanvasBitmapTextPipe.mjs
 var CanvasBitmapTextPipe = class extends AbstractBitmapTextPipe {
   getSdfShader() {
     return null;
@@ -16963,7 +16963,7 @@ CanvasBitmapTextPipe.extension = {
   name: "bitmapText"
 };
 
-// ../../node_modules/pixi.js/lib/scene/text/sdfShader/shader-bits/localUniformMSDFBit.mjs
+// ../../../node_modules/pixi.js/lib/scene/text/sdfShader/shader-bits/localUniformMSDFBit.mjs
 var localUniformMSDFBit = {
   name: "local-uniform-msdf-bit",
   vertex: {
@@ -17062,7 +17062,7 @@ var localUniformMSDFBitGl = {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/text/sdfShader/shader-bits/mSDFBit.mjs
+// ../../../node_modules/pixi.js/lib/scene/text/sdfShader/shader-bits/mSDFBit.mjs
 var mSDFBit = {
   name: "msdf-bit",
   fragment: {
@@ -17136,7 +17136,7 @@ var mSDFBitGl = {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/text/sdfShader/SdfShader.mjs
+// ../../../node_modules/pixi.js/lib/scene/text/sdfShader/SdfShader.mjs
 var gpuProgram2;
 var glProgram2;
 var SdfShader = class extends Shader {
@@ -17178,7 +17178,7 @@ var SdfShader = class extends Shader {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/text-bitmap/GpuBitmapTextPipe.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-bitmap/GpuBitmapTextPipe.mjs
 var BitmapTextPipe = class extends AbstractBitmapTextPipe {
   getSdfShader() {
     return new SdfShader(this._renderer.limits.maxBatchableTextures);
@@ -17192,11 +17192,11 @@ BitmapTextPipe.extension = {
   name: "bitmapText"
 };
 
-// ../../node_modules/pixi.js/lib/scene/text-bitmap/init.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-bitmap/init.mjs
 extensions.add(CanvasBitmapTextPipe);
 extensions.add(BitmapTextPipe);
 
-// ../../node_modules/pixi.js/lib/scene/text-bitmap/BitmapText.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-bitmap/BitmapText.mjs
 var BitmapText = class extends AbstractText {
   constructor(...args) {
     var _a;
@@ -17281,7 +17281,7 @@ var BitmapText = class extends AbstractText {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/text-html/utils/textStyleToCSS.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-html/utils/textStyleToCSS.mjs
 function textStyleToCSS(style) {
   const stroke = style._stroke;
   const fill = style._fill;
@@ -17373,7 +17373,7 @@ function tagStyleToCSS(tagStyles, out) {
   }
 }
 
-// ../../node_modules/pixi.js/lib/scene/text-html/HTMLTextStyle.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-html/HTMLTextStyle.mjs
 var HTMLTextStyle = class _HTMLTextStyle extends TextStyle {
   constructor(options = {}) {
     super(options);
@@ -17633,7 +17633,7 @@ var HTMLTextStyle = class _HTMLTextStyle extends TextStyle {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/text-html/HTMLTextRenderData.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-html/HTMLTextRenderData.mjs
 var nssvg = "http://www.w3.org/2000/svg";
 var nsxhtml = "http://www.w3.org/1999/xhtml";
 var HTMLTextRenderData = class {
@@ -17667,7 +17667,7 @@ var HTMLTextRenderData = class {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/text-html/utils/measureHtmlText.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-html/utils/measureHtmlText.mjs
 var tempHTMLTextRenderData;
 function measureHtmlText(text, style, fontStyleCSS, htmlTextRenderData) {
   htmlTextRenderData || (htmlTextRenderData = tempHTMLTextRenderData || (tempHTMLTextRenderData = new HTMLTextRenderData()));
@@ -17695,7 +17695,7 @@ function measureHtmlText(text, style, fontStyleCSS, htmlTextRenderData) {
   };
 }
 
-// ../../node_modules/pixi.js/lib/scene/text-html/BatchableHTMLText.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-html/BatchableHTMLText.mjs
 var BatchableHTMLText = class extends BatchableSprite {
   constructor() {
     super(...arguments);
@@ -17711,7 +17711,7 @@ var BatchableHTMLText = class extends BatchableSprite {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/text-html/HTMLTextPipe.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-html/HTMLTextPipe.mjs
 var HTMLTextPipe = class {
   constructor(renderer) {
     this._renderer = renderer;
@@ -17817,7 +17817,7 @@ HTMLTextPipe.extension = {
   name: "htmlText"
 };
 
-// ../../node_modules/pixi.js/lib/scene/text-html/utils/extractFontFamilies.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-html/utils/extractFontFamilies.mjs
 function extractFontFamilies(text, style) {
   const fontFamily = style.fontFamily;
   const fontFamilies = [];
@@ -17850,7 +17850,7 @@ function extractFontFamilies(text, style) {
   return fontFamilies;
 }
 
-// ../../node_modules/pixi.js/lib/scene/text-html/utils/loadFontAsBase64.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-html/utils/loadFontAsBase64.mjs
 async function loadFontAsBase64(url) {
   const response = await DOMAdapter.get().fetch(url);
   const blob = await response.blob();
@@ -17863,7 +17863,7 @@ async function loadFontAsBase64(url) {
   return dataSrc;
 }
 
-// ../../node_modules/pixi.js/lib/scene/text-html/utils/loadFontCSS.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-html/utils/loadFontCSS.mjs
 async function loadFontCSS(style, url) {
   const dataSrc = await loadFontAsBase64(url);
   return `@font-face {
@@ -17874,7 +17874,7 @@ async function loadFontCSS(style, url) {
     }`;
 }
 
-// ../../node_modules/pixi.js/lib/scene/text-html/utils/getFontCss.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-html/utils/getFontCss.mjs
 var FontStylePromiseCache = /* @__PURE__ */ new Map();
 async function getFontCss(fontFamilies) {
   const fontPromises = fontFamilies.filter((fontFamily) => Cache.has(`${fontFamily}-and-url`)).map((fontFamily) => {
@@ -17908,7 +17908,7 @@ async function getFontCss(fontFamilies) {
   return (await Promise.all(fontPromises)).join("\n");
 }
 
-// ../../node_modules/pixi.js/lib/scene/text-html/utils/getSVGUrl.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-html/utils/getSVGUrl.mjs
 function getSVGUrl(text, style, resolution, fontCSS, htmlTextData) {
   const { domElement, styleElement, svgRoot } = htmlTextData;
   domElement.innerHTML = `<style>${style.cssStyle}</style><div style='padding:0;'>${text}</div>`;
@@ -17920,7 +17920,7 @@ function getSVGUrl(text, style, resolution, fontCSS, htmlTextData) {
   return new XMLSerializer().serializeToString(svgRoot);
 }
 
-// ../../node_modules/pixi.js/lib/scene/text-html/utils/getTemporaryCanvasFromImage.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-html/utils/getTemporaryCanvasFromImage.mjs
 function getTemporaryCanvasFromImage(image, resolution) {
   const canvasAndContext = CanvasPool.getOptimalCanvasAndContext(
     image.width,
@@ -17933,7 +17933,7 @@ function getTemporaryCanvasFromImage(image, resolution) {
   return canvasAndContext;
 }
 
-// ../../node_modules/pixi.js/lib/scene/text-html/utils/loadSVGImage.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-html/utils/loadSVGImage.mjs
 function loadSVGImage(image, url, delay) {
   return new Promise(async (resolve) => {
     if (delay) {
@@ -17947,7 +17947,7 @@ function loadSVGImage(image, url, delay) {
   });
 }
 
-// ../../node_modules/pixi.js/lib/scene/text-html/HTMLTextSystem.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-html/HTMLTextSystem.mjs
 var HTMLTextSystem = class {
   constructor(renderer) {
     this._activeTextures = {};
@@ -18086,11 +18086,11 @@ HTMLTextSystem.extension = {
   name: "htmlText"
 };
 
-// ../../node_modules/pixi.js/lib/scene/text-html/init.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-html/init.mjs
 extensions.add(HTMLTextSystem);
 extensions.add(HTMLTextPipe);
 
-// ../../node_modules/pixi.js/lib/scene/text-html/HTMLText.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-html/HTMLText.mjs
 var HTMLText = class extends AbstractText {
   constructor(...args) {
     const options = ensureTextOptions(args, "HtmlText");
@@ -18159,7 +18159,7 @@ var HTMLText = class extends AbstractText {
   }
 };
 
-// ../../node_modules/pixi.js/lib/prepare/PrepareUpload.mjs
+// ../../../node_modules/pixi.js/lib/prepare/PrepareUpload.mjs
 var PrepareUpload = class extends PrepareQueue {
   /**
    * Upload the given queue item
@@ -18210,7 +18210,7 @@ var PrepareUpload = class extends PrepareQueue {
   }
 };
 
-// ../../node_modules/pixi.js/lib/prepare/PrepareSystem.mjs
+// ../../../node_modules/pixi.js/lib/prepare/PrepareSystem.mjs
 var PrepareSystem = class extends PrepareUpload {
   /** Destroys the plugin, don't use after this. */
   destroy() {
@@ -18229,7 +18229,7 @@ PrepareSystem.extension = {
   name: "prepare"
 };
 
-// ../../node_modules/pixi.js/lib/rendering/batcher/gpu/generateGPULayout.mjs
+// ../../../node_modules/pixi.js/lib/rendering/batcher/gpu/generateGPULayout.mjs
 function generateGPULayout(maxTextures) {
   const gpuLayout = [];
   let bindIndex = 0;
@@ -18256,7 +18256,7 @@ function generateGPULayout(maxTextures) {
   return gpuLayout;
 }
 
-// ../../node_modules/pixi.js/lib/rendering/batcher/gpu/generateLayout.mjs
+// ../../../node_modules/pixi.js/lib/rendering/batcher/gpu/generateLayout.mjs
 function generateLayout(maxTextures) {
   const layout = {};
   let bindIndex = 0;
@@ -18267,7 +18267,7 @@ function generateLayout(maxTextures) {
   return layout;
 }
 
-// ../../node_modules/pixi.js/lib/rendering/high-shader/compiler/utils/formatShader.mjs
+// ../../../node_modules/pixi.js/lib/rendering/high-shader/compiler/utils/formatShader.mjs
 function formatShader(shader) {
   const spl = shader.split(/([\n{}])/g).map((a) => a.trim()).filter((a) => a.length);
   let indent = "";
@@ -18284,7 +18284,7 @@ function formatShader(shader) {
   return formatted;
 }
 
-// ../../node_modules/pixi.js/lib/rendering/mask/scissor/ScissorMask.mjs
+// ../../../node_modules/pixi.js/lib/rendering/mask/scissor/ScissorMask.mjs
 var ScissorMask = class {
   constructor(mask) {
     this.priority = 0;
@@ -18313,7 +18313,7 @@ var ScissorMask = class {
   }
 };
 
-// ../../node_modules/pixi.js/lib/rendering/renderers/canvas/CanvasFilterSystem.mjs
+// ../../../node_modules/pixi.js/lib/rendering/renderers/canvas/CanvasFilterSystem.mjs
 function isCanvasFilterCapable(filter) {
   return typeof filter.getCanvasFilterString === "function";
 }
@@ -18560,7 +18560,7 @@ CanvasFilterSystem.extension = {
 };
 extensions.add(CanvasFilterSystem);
 
-// ../../node_modules/pixi.js/lib/rendering/renderers/gl/shader/migrateFragmentFromV7toV8.mjs
+// ../../../node_modules/pixi.js/lib/rendering/renderers/gl/shader/migrateFragmentFromV7toV8.mjs
 function migrateFragmentFromV7toV8(fragmentShader) {
   fragmentShader = fragmentShader.replaceAll("texture2D", "texture").replaceAll("gl_FragColor", "finalColor").replaceAll("varying", "in");
   fragmentShader = `
@@ -18570,7 +18570,7 @@ function migrateFragmentFromV7toV8(fragmentShader) {
   return fragmentShader;
 }
 
-// ../../node_modules/pixi.js/lib/rendering/renderers/gl/shader/program/mapSize.mjs
+// ../../../node_modules/pixi.js/lib/rendering/renderers/gl/shader/program/mapSize.mjs
 var GLSL_TO_SIZE = {
   float: 1,
   vec2: 2,
@@ -18597,7 +18597,7 @@ function mapSize(type) {
   return GLSL_TO_SIZE[type];
 }
 
-// ../../node_modules/pixi.js/lib/rendering/renderers/shared/geometry/const.mjs
+// ../../../node_modules/pixi.js/lib/rendering/renderers/shared/geometry/const.mjs
 var DEPRECATED_DRAW_MODES = {
   POINTS: "point-list",
   LINES: "line-list",
@@ -18612,7 +18612,7 @@ var DRAW_MODES = new Proxy(DEPRECATED_DRAW_MODES, {
   }
 });
 
-// ../../node_modules/pixi.js/lib/rendering/renderers/shared/texture/const.mjs
+// ../../../node_modules/pixi.js/lib/rendering/renderers/shared/texture/const.mjs
 var DEPRECATED_WRAP_MODES = ((DEPRECATED_WRAP_MODES2) => {
   DEPRECATED_WRAP_MODES2["CLAMP"] = "clamp-to-edge";
   DEPRECATED_WRAP_MODES2["REPEAT"] = "repeat";
@@ -18637,7 +18637,7 @@ var SCALE_MODES = new Proxy(DEPRECATED_SCALE_MODES, {
   }
 });
 
-// ../../node_modules/pixi.js/lib/rendering/renderers/shared/texture/sources/CubeTextureSource.mjs
+// ../../../node_modules/pixi.js/lib/rendering/renderers/shared/texture/sources/CubeTextureSource.mjs
 var CubeTextureSource = class _CubeTextureSource extends TextureSource {
   constructor(options) {
     const _a = options, { faces } = _a, rest = __objRest(_a, ["faces"]);
@@ -18730,7 +18730,7 @@ var CubeTextureSource = class _CubeTextureSource extends TextureSource {
   }
 };
 
-// ../../node_modules/pixi.js/lib/rendering/renderers/shared/texture/CubeTexture.mjs
+// ../../../node_modules/pixi.js/lib/rendering/renderers/shared/texture/CubeTexture.mjs
 var faceKeys = ["left", "right", "top", "bottom", "front", "back"];
 function getCubeCacheKey(faceIds, options) {
   const opts = options ? __spreadValues({}, options) : {};
@@ -18802,7 +18802,7 @@ var CubeTexture = class _CubeTexture extends eventemitter3_default {
   }
 };
 
-// ../../node_modules/pixi.js/lib/rendering/renderers/shared/texture/sources/ExternalSource.mjs
+// ../../../node_modules/pixi.js/lib/rendering/renderers/shared/texture/sources/ExternalSource.mjs
 var placeholderGl = /* @__PURE__ */ Object.create(null);
 var placeholderGpu = /* @__PURE__ */ Object.create(null);
 function getPlaceholder(renderer) {
@@ -18918,7 +18918,7 @@ var ExternalSource = class extends TextureSource {
   }
 };
 
-// ../../node_modules/pixi.js/lib/rendering/renderers/shared/texture/TextureUvs.mjs
+// ../../../node_modules/pixi.js/lib/rendering/renderers/shared/texture/TextureUvs.mjs
 var TextureUvs = class {
   constructor() {
     this.x0 = 0;
@@ -18982,7 +18982,7 @@ var TextureUvs = class {
   }
 };
 
-// ../../node_modules/pixi.js/lib/rendering/renderers/shared/utils/parseFunctionBody.mjs
+// ../../../node_modules/pixi.js/lib/rendering/renderers/shared/utils/parseFunctionBody.mjs
 function parseFunctionBody(fn) {
   const fnStr = fn.toString();
   const bodyStart = fnStr.indexOf("{");
@@ -18993,13 +18993,13 @@ function parseFunctionBody(fn) {
   return fnStr.slice(bodyStart + 1, bodyEnd).trim();
 }
 
-// ../../node_modules/pixi.js/lib/scene/container/bounds/getFastGlobalBounds.mjs
+// ../../../node_modules/pixi.js/lib/scene/container/bounds/getFastGlobalBounds.mjs
 function getFastGlobalBounds(target, bounds) {
   deprecation("8.7.0", "Use container.getFastGlobalBounds() instead");
   return target.getFastGlobalBounds(true, bounds);
 }
 
-// ../../node_modules/pixi.js/lib/scene/container/RenderContainer.mjs
+// ../../../node_modules/pixi.js/lib/scene/container/RenderContainer.mjs
 var RenderContainer = class extends ViewContainer {
   /**
    * @param options - The options for the container.
@@ -19031,14 +19031,14 @@ var RenderContainer = class extends ViewContainer {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/container/utils/collectAllRenderables.mjs
+// ../../../node_modules/pixi.js/lib/scene/container/utils/collectAllRenderables.mjs
 function collectAllRenderables(container, instructionSet, rendererOrPipes) {
   deprecation("8.7.0", "Please use container.collectRenderables instead.");
   const renderer = rendererOrPipes.renderPipes ? rendererOrPipes : rendererOrPipes.batch.renderer;
   return container.collectRenderables(instructionSet, renderer, null);
 }
 
-// ../../node_modules/pixi.js/lib/scene/container/utils/updateLocalTransform.mjs
+// ../../../node_modules/pixi.js/lib/scene/container/utils/updateLocalTransform.mjs
 function updateLocalTransform(lt, container) {
   const scale = container._scale;
   const pivot = container._pivot;
@@ -19055,7 +19055,7 @@ function updateLocalTransform(lt, container) {
   lt.ty = position._y - (px * lt.b + py * lt.d);
 }
 
-// ../../node_modules/pixi.js/lib/scene/container/utils/updateWorldTransform.mjs
+// ../../../node_modules/pixi.js/lib/scene/container/utils/updateWorldTransform.mjs
 function updateWorldTransform(local, parent, world) {
   const lta = local.a;
   const ltb = local.b;
@@ -19075,7 +19075,7 @@ function updateWorldTransform(local, parent, world) {
   world.ty = lttx * ptb + ltty * ptd + parent.ty;
 }
 
-// ../../node_modules/pixi.js/lib/scene/graphics/shared/utils/buildGeometryFromPath.mjs
+// ../../../node_modules/pixi.js/lib/scene/graphics/shared/utils/buildGeometryFromPath.mjs
 function buildGeometryFromPath(options) {
   if (options instanceof GraphicsPath) {
     options = {
@@ -19124,7 +19124,7 @@ function buildGeometryFromPath(options) {
   return geometry;
 }
 
-// ../../node_modules/pixi.js/lib/scene/layers/RenderLayer.mjs
+// ../../../node_modules/pixi.js/lib/scene/layers/RenderLayer.mjs
 var _RenderLayer = class _RenderLayer2 extends Container {
   /**
    * Creates a new RenderLayer instance
@@ -19509,7 +19509,7 @@ _RenderLayer.defaultOptions = {
 };
 var RenderLayer = _RenderLayer;
 
-// ../../node_modules/pixi.js/lib/scene/mesh-plane/PlaneGeometry.mjs
+// ../../../node_modules/pixi.js/lib/scene/mesh-plane/PlaneGeometry.mjs
 var _PlaneGeometry = class _PlaneGeometry2 extends MeshGeometry {
   constructor(...args) {
     super({});
@@ -19582,7 +19582,7 @@ _PlaneGeometry.defaultOptions = {
 };
 var PlaneGeometry = _PlaneGeometry;
 
-// ../../node_modules/pixi.js/lib/scene/mesh-perspective/utils/applyProjectiveTransformationToPlane.mjs
+// ../../../node_modules/pixi.js/lib/scene/mesh-perspective/utils/applyProjectiveTransformationToPlane.mjs
 function applyProjectiveTransformationToPlane(width, height, geometry, transformationMatrix) {
   const buffer = geometry.buffers[0];
   const vertices = buffer.data;
@@ -19612,7 +19612,7 @@ function applyProjectiveTransformationToPlane(width, height, geometry, transform
   buffer.update();
 }
 
-// ../../node_modules/pixi.js/lib/scene/mesh-perspective/utils/compute2DProjections.mjs
+// ../../../node_modules/pixi.js/lib/scene/mesh-perspective/utils/compute2DProjections.mjs
 function computeAdjugate(out, matrix) {
   const a00 = matrix[0];
   const a01 = matrix[1];
@@ -19744,7 +19744,7 @@ function compute2DProjection(out, x1s, y1s, x1d, y1d, x2s, y2s, x2d, y2d, x3s, y
   );
 }
 
-// ../../node_modules/pixi.js/lib/scene/mesh-perspective/PerspectivePlaneGeometry.mjs
+// ../../../node_modules/pixi.js/lib/scene/mesh-perspective/PerspectivePlaneGeometry.mjs
 var PerspectivePlaneGeometry = class extends PlaneGeometry {
   /**
    * @param options - Options to be applied to MeshPlane
@@ -19823,7 +19823,7 @@ var PerspectivePlaneGeometry = class extends PlaneGeometry {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/mesh-perspective/PerspectiveMesh.mjs
+// ../../../node_modules/pixi.js/lib/scene/mesh-perspective/PerspectiveMesh.mjs
 var _PerspectiveMesh = class _PerspectiveMesh2 extends Mesh {
   /**
    * @param options - Options to be applied to PerspectiveMesh
@@ -19954,7 +19954,7 @@ _PerspectiveMesh.defaultOptions = {
 };
 var PerspectiveMesh = _PerspectiveMesh;
 
-// ../../node_modules/pixi.js/lib/scene/mesh-plane/MeshPlane.mjs
+// ../../../node_modules/pixi.js/lib/scene/mesh-plane/MeshPlane.mjs
 var MeshPlane = class extends Mesh {
   /**
    * @param options - Options to be applied to MeshPlane
@@ -20027,7 +20027,7 @@ var MeshPlane = class extends Mesh {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/mesh-simple/RopeGeometry.mjs
+// ../../../node_modules/pixi.js/lib/scene/mesh-simple/RopeGeometry.mjs
 var _RopeGeometry = class _RopeGeometry2 extends MeshGeometry {
   /**
    * @param options - Options to be applied to rope geometry
@@ -20170,7 +20170,7 @@ _RopeGeometry.defaultOptions = {
 };
 var RopeGeometry = _RopeGeometry;
 
-// ../../node_modules/pixi.js/lib/scene/mesh-simple/MeshRope.mjs
+// ../../../node_modules/pixi.js/lib/scene/mesh-simple/MeshRope.mjs
 var _MeshRope = class _MeshRope2 extends Mesh {
   /**
    * Note: The wrap mode of the texture is set to REPEAT if `textureScale` is positive.
@@ -20207,7 +20207,7 @@ _MeshRope.defaultOptions = {
 };
 var MeshRope = _MeshRope;
 
-// ../../node_modules/pixi.js/lib/scene/mesh-simple/MeshSimple.mjs
+// ../../../node_modules/pixi.js/lib/scene/mesh-simple/MeshSimple.mjs
 var MeshSimple = class extends Mesh {
   /**
    * @param options - Options to be used for construction
@@ -20267,14 +20267,14 @@ var MeshSimple = class extends Mesh {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/mesh/shared/getTextureDefaultMatrix.mjs
+// ../../../node_modules/pixi.js/lib/scene/mesh/shared/getTextureDefaultMatrix.mjs
 function getTextureDefaultMatrix(texture, out) {
   const { width, height } = texture.frame;
   out.scale(1 / width, 1 / height);
   return out;
 }
 
-// ../../node_modules/pixi.js/lib/scene/particle-container/canvas/CanvasParticleContainerAdaptor.mjs
+// ../../../node_modules/pixi.js/lib/scene/particle-container/canvas/CanvasParticleContainerAdaptor.mjs
 var CanvasParticleContainerAdaptor = class {
   execute(particleContainerPipe, container) {
     const renderer = particleContainerPipe.renderer;
@@ -20324,7 +20324,7 @@ var CanvasParticleContainerAdaptor = class {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/particle-container/shared/utils/createIndicesForQuads.mjs
+// ../../../node_modules/pixi.js/lib/scene/particle-container/shared/utils/createIndicesForQuads.mjs
 function createIndicesForQuads(size, outBuffer = null) {
   const totalIndices = size * 6;
   if (totalIndices > 65535) {
@@ -20346,7 +20346,7 @@ function createIndicesForQuads(size, outBuffer = null) {
   return outBuffer;
 }
 
-// ../../node_modules/pixi.js/lib/scene/particle-container/shared/utils/generateParticleUpdateFunction.mjs
+// ../../../node_modules/pixi.js/lib/scene/particle-container/shared/utils/generateParticleUpdateFunction.mjs
 function generateParticleUpdateFunction(properties) {
   return {
     dynamicUpdate: generateUpdateFunction(properties, true),
@@ -20384,7 +20384,7 @@ function generateUpdateFunction(properties, dynamic) {
   return new Function("ps", "f32v", "u32v", functionSource);
 }
 
-// ../../node_modules/pixi.js/lib/scene/particle-container/shared/ParticleBuffer.mjs
+// ../../../node_modules/pixi.js/lib/scene/particle-container/shared/ParticleBuffer.mjs
 var ParticleBuffer = class {
   constructor(options) {
     this._size = 0;
@@ -20505,16 +20505,16 @@ function getParticleSyncKey(properties) {
   return keyGen.join("_");
 }
 
-// ../../node_modules/pixi.js/lib/scene/particle-container/shared/shader/particles.frag.mjs
+// ../../../node_modules/pixi.js/lib/scene/particle-container/shared/shader/particles.frag.mjs
 var fragment7 = "varying vec2 vUV;\nvarying vec4 vColor;\n\nuniform sampler2D uTexture;\n\nvoid main(void){\n    vec4 color = texture2D(uTexture, vUV) * vColor;\n    gl_FragColor = color;\n}";
 
-// ../../node_modules/pixi.js/lib/scene/particle-container/shared/shader/particles.vert.mjs
+// ../../../node_modules/pixi.js/lib/scene/particle-container/shared/shader/particles.vert.mjs
 var vertex4 = "attribute vec2 aVertex;\nattribute vec2 aUV;\nattribute vec4 aColor;\n\nattribute vec2 aPosition;\nattribute float aRotation;\n\nuniform mat3 uTranslationMatrix;\nuniform float uRound;\nuniform vec2 uResolution;\nuniform vec4 uColor;\n\nvarying vec2 vUV;\nvarying vec4 vColor;\n\nvec2 roundPixels(vec2 position, vec2 targetSize)\n{       \n    return (floor(((position * 0.5 + 0.5) * targetSize) + 0.5) / targetSize) * 2.0 - 1.0;\n}\n\nvoid main(void){\n    float cosRotation = cos(aRotation);\n    float sinRotation = sin(aRotation);\n    float x = aVertex.x * cosRotation - aVertex.y * sinRotation;\n    float y = aVertex.x * sinRotation + aVertex.y * cosRotation;\n\n    vec2 v = vec2(x, y);\n    v = v + aPosition;\n\n    gl_Position = vec4((uTranslationMatrix * vec3(v, 1.0)).xy, 0.0, 1.0);\n\n    if(uRound == 1.0)\n    {\n        gl_Position.xy = roundPixels(gl_Position.xy, uResolution);\n    }\n\n    vUV = aUV;\n    vColor = vec4(aColor.rgb * aColor.a, aColor.a) * uColor;\n}\n";
 
-// ../../node_modules/pixi.js/lib/scene/particle-container/shared/shader/particles.wgsl.mjs
+// ../../../node_modules/pixi.js/lib/scene/particle-container/shared/shader/particles.wgsl.mjs
 var wgsl = "\nstruct ParticleUniforms {\n  uTranslationMatrix:mat3x3<f32>,\n  uColor:vec4<f32>,\n  uRound:f32,\n  uResolution:vec2<f32>,\n};\n\nfn roundPixels(position: vec2<f32>, targetSize: vec2<f32>) -> vec2<f32>\n{\n  return (floor(((position * 0.5 + 0.5) * targetSize) + 0.5) / targetSize) * 2.0 - 1.0;\n}\n\n@group(0) @binding(0) var<uniform> uniforms: ParticleUniforms;\n\n@group(1) @binding(0) var uTexture: texture_2d<f32>;\n@group(1) @binding(1) var uSampler : sampler;\n\nstruct VSOutput {\n    @builtin(position) position: vec4<f32>,\n    @location(0) uv : vec2<f32>,\n    @location(1) color : vec4<f32>,\n  };\n@vertex\nfn mainVertex(\n  @location(0) aVertex: vec2<f32>,\n  @location(1) aPosition: vec2<f32>,\n  @location(2) aUV: vec2<f32>,\n  @location(3) aColor: vec4<f32>,\n  @location(4) aRotation: f32,\n) -> VSOutput {\n  \n   let v = vec2(\n       aVertex.x * cos(aRotation) - aVertex.y * sin(aRotation),\n       aVertex.x * sin(aRotation) + aVertex.y * cos(aRotation)\n   ) + aPosition;\n\n   var position = vec4((uniforms.uTranslationMatrix * vec3(v, 1.0)).xy, 0.0, 1.0);\n\n   if(uniforms.uRound == 1.0) {\n       position = vec4(roundPixels(position.xy, uniforms.uResolution), position.zw);\n   }\n\n    let vColor = vec4(aColor.rgb * aColor.a, aColor.a) * uniforms.uColor;\n\n  return VSOutput(\n   position,\n   aUV,\n   vColor,\n  );\n}\n\n@fragment\nfn mainFragment(\n  @location(0) uv: vec2<f32>,\n  @location(1) color: vec4<f32>,\n  @builtin(position) position: vec4<f32>,\n) -> @location(0) vec4<f32> {\n\n    var sample = textureSample(uTexture, uSampler, uv) * color;\n   \n    return sample;\n}";
 
-// ../../node_modules/pixi.js/lib/scene/particle-container/shared/shader/ParticleShader.mjs
+// ../../../node_modules/pixi.js/lib/scene/particle-container/shared/shader/ParticleShader.mjs
 var ParticleShader = class extends Shader {
   constructor() {
     const glProgram3 = GlProgram.from({
@@ -20551,7 +20551,7 @@ var ParticleShader = class extends Shader {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/particle-container/shared/ParticleContainerPipe.mjs
+// ../../../node_modules/pixi.js/lib/scene/particle-container/shared/ParticleContainerPipe.mjs
 var ParticleContainerPipe = class {
   /**
    * @param renderer - The renderer this sprite batch works for.
@@ -20633,7 +20633,7 @@ ParticleContainerPipe.extension = {
   name: "particle"
 };
 
-// ../../node_modules/pixi.js/lib/scene/particle-container/canvas/CanvasParticleContainerPipe.mjs
+// ../../../node_modules/pixi.js/lib/scene/particle-container/canvas/CanvasParticleContainerPipe.mjs
 var CanvasParticleContainerPipe = class extends ParticleContainerPipe {
   constructor(renderer) {
     super(renderer, new CanvasParticleContainerAdaptor());
@@ -20646,7 +20646,7 @@ CanvasParticleContainerPipe.extension = {
   name: "particle"
 };
 
-// ../../node_modules/pixi.js/lib/scene/particle-container/gl/GlParticleContainerAdaptor.mjs
+// ../../../node_modules/pixi.js/lib/scene/particle-container/gl/GlParticleContainerAdaptor.mjs
 var GlParticleContainerAdaptor = class {
   execute(particleContainerPipe, container) {
     const state = particleContainerPipe.state;
@@ -20665,7 +20665,7 @@ var GlParticleContainerAdaptor = class {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/particle-container/gl/GlParticleContainerPipe.mjs
+// ../../../node_modules/pixi.js/lib/scene/particle-container/gl/GlParticleContainerPipe.mjs
 var GlParticleContainerPipe = class extends ParticleContainerPipe {
   constructor(renderer) {
     super(renderer, new GlParticleContainerAdaptor());
@@ -20678,7 +20678,7 @@ GlParticleContainerPipe.extension = {
   name: "particle"
 };
 
-// ../../node_modules/pixi.js/lib/scene/particle-container/gpu/GpuParticleContainerAdaptor.mjs
+// ../../../node_modules/pixi.js/lib/scene/particle-container/gpu/GpuParticleContainerAdaptor.mjs
 var GpuParticleContainerAdaptor = class {
   execute(particleContainerPipe, container) {
     const renderer = particleContainerPipe.renderer;
@@ -20696,7 +20696,7 @@ var GpuParticleContainerAdaptor = class {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/particle-container/gpu/GpuParticleContainerPipe.mjs
+// ../../../node_modules/pixi.js/lib/scene/particle-container/gpu/GpuParticleContainerPipe.mjs
 var GpuParticleContainerPipe = class extends ParticleContainerPipe {
   constructor(renderer) {
     super(renderer, new GpuParticleContainerAdaptor());
@@ -20709,7 +20709,7 @@ GpuParticleContainerPipe.extension = {
   name: "particle"
 };
 
-// ../../node_modules/pixi.js/lib/scene/particle-container/shared/Particle.mjs
+// ../../../node_modules/pixi.js/lib/scene/particle-container/shared/Particle.mjs
 var _Particle = class _Particle2 {
   constructor(options) {
     if (options instanceof Texture) {
@@ -20815,7 +20815,7 @@ _Particle.defaultOptions = {
 };
 var Particle = _Particle;
 
-// ../../node_modules/pixi.js/lib/scene/particle-container/shared/particleData.mjs
+// ../../../node_modules/pixi.js/lib/scene/particle-container/shared/particleData.mjs
 var particleData = {
   vertex: {
     attributeName: "aVertex",
@@ -20933,12 +20933,12 @@ var particleData = {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/particle-container/init.mjs
+// ../../../node_modules/pixi.js/lib/scene/particle-container/init.mjs
 extensions.add(GlParticleContainerPipe);
 extensions.add(GpuParticleContainerPipe);
 extensions.add(CanvasParticleContainerPipe);
 
-// ../../node_modules/pixi.js/lib/scene/particle-container/shared/ParticleContainer.mjs
+// ../../../node_modules/pixi.js/lib/scene/particle-container/shared/ParticleContainer.mjs
 var emptyBounds = new Bounds(0, 0, 0, 0);
 var _ParticleContainer = class _ParticleContainer2 extends ViewContainer {
   /**
@@ -21311,7 +21311,7 @@ _ParticleContainer.defaultOptions = {
 };
 var ParticleContainer = _ParticleContainer;
 
-// ../../node_modules/pixi.js/lib/scene/sprite-nine-slice/canvas/CanvasNineSliceSpritePipe.mjs
+// ../../../node_modules/pixi.js/lib/scene/sprite-nine-slice/canvas/CanvasNineSliceSpritePipe.mjs
 var CanvasNineSliceSpritePipe = class {
   constructor(renderer) {
     this._renderer = renderer;
@@ -21502,7 +21502,7 @@ CanvasNineSliceSpritePipe.extension = {
   name: "nineSliceSprite"
 };
 
-// ../../node_modules/pixi.js/lib/scene/sprite-nine-slice/NineSliceGeometry.mjs
+// ../../../node_modules/pixi.js/lib/scene/sprite-nine-slice/NineSliceGeometry.mjs
 var _NineSliceGeometry = class _NineSliceGeometry2 extends PlaneGeometry {
   constructor(options = {}) {
     options = __spreadValues(__spreadValues({}, _NineSliceGeometry2.defaultOptions), options);
@@ -21598,7 +21598,7 @@ _NineSliceGeometry.defaultOptions = {
 };
 var NineSliceGeometry = _NineSliceGeometry;
 
-// ../../node_modules/pixi.js/lib/scene/sprite-nine-slice/NineSliceSpritePipe.mjs
+// ../../../node_modules/pixi.js/lib/scene/sprite-nine-slice/NineSliceSpritePipe.mjs
 var NineSliceSpriteGpuData = class extends BatchableMesh {
   constructor() {
     super();
@@ -21663,11 +21663,11 @@ NineSliceSpritePipe.extension = {
   name: "nineSliceSprite"
 };
 
-// ../../node_modules/pixi.js/lib/scene/sprite-nine-slice/init.mjs
+// ../../../node_modules/pixi.js/lib/scene/sprite-nine-slice/init.mjs
 extensions.add(CanvasNineSliceSpritePipe);
 extensions.add(NineSliceSpritePipe);
 
-// ../../node_modules/pixi.js/lib/scene/sprite-nine-slice/NineSliceSprite.mjs
+// ../../../node_modules/pixi.js/lib/scene/sprite-nine-slice/NineSliceSprite.mjs
 var _NineSliceSprite = class _NineSliceSprite2 extends ViewContainer {
   constructor(options) {
     if (options instanceof Texture) {
@@ -22063,7 +22063,7 @@ var NineSlicePlane = class extends NineSliceSprite {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/text-bitmap/utils/bitmapTextSplit.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-bitmap/utils/bitmapTextSplit.mjs
 function bitmapTextSplit(options) {
   const { text, style, chars: existingChars } = options;
   const textStyle = style;
@@ -22124,7 +22124,7 @@ function bitmapTextSplit(options) {
   return { chars, lines, words };
 }
 
-// ../../node_modules/pixi.js/lib/scene/text-split/AbstractSplitText.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-split/AbstractSplitText.mjs
 var AbstractSplitText = class extends Container {
   constructor(config) {
     const _a = config, {
@@ -22396,7 +22396,7 @@ var AbstractSplitText = class extends Container {
   }
 };
 
-// ../../node_modules/pixi.js/lib/scene/text-split/SplitBitmapText.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-split/SplitBitmapText.mjs
 var _SplitBitmapText = class _SplitBitmapText2 extends AbstractSplitText {
   constructor(config) {
     var _a;
@@ -22463,7 +22463,7 @@ _SplitBitmapText.defaultOptions = {
 };
 var SplitBitmapText = _SplitBitmapText;
 
-// ../../node_modules/pixi.js/lib/scene/text/utils/canvasTextSplit.mjs
+// ../../../node_modules/pixi.js/lib/scene/text/utils/canvasTextSplit.mjs
 function getAlignmentOffset(alignment, lineWidth, largestLine) {
   switch (alignment) {
     case "center":
@@ -22610,7 +22610,7 @@ function canvasTextSplit(options) {
   return { chars, lines: lineContainers, words: wordContainers };
 }
 
-// ../../node_modules/pixi.js/lib/scene/text-split/SplitText.mjs
+// ../../../node_modules/pixi.js/lib/scene/text-split/SplitText.mjs
 var _SplitText = class _SplitText2 extends AbstractSplitText {
   constructor(config) {
     const completeOptions = __spreadValues(__spreadValues({}, _SplitText2.defaultOptions), config);
@@ -22674,7 +22674,7 @@ _SplitText.defaultOptions = {
 };
 var SplitText = _SplitText;
 
-// ../../node_modules/pixi.js/lib/scene/text/utils/generateTextStyleKey.mjs
+// ../../../node_modules/pixi.js/lib/scene/text/utils/generateTextStyleKey.mjs
 var valuesToIterateForKeys = [
   "align",
   "breakWords",
@@ -22741,7 +22741,7 @@ function addDropShadowKey(dropShadow, key, index) {
   return index;
 }
 
-// ../../node_modules/pixi.js/lib/utils/logging/logDebugTexture.mjs
+// ../../../node_modules/pixi.js/lib/utils/logging/logDebugTexture.mjs
 async function logDebugTexture(texture, renderer, size = 200) {
   const base64 = await renderer.extract.base64(texture);
   if (renderer.type !== RendererType.CANVAS) {
@@ -22758,7 +22758,7 @@ async function logDebugTexture(texture, renderer, size = 200) {
   console.log("%c ", style);
 }
 
-// ../../node_modules/pixi.js/lib/utils/logging/logScene.mjs
+// ../../../node_modules/pixi.js/lib/utils/logging/logScene.mjs
 var colors = [
   "#000080",
   // Navy Blue
@@ -22822,7 +22822,7 @@ function logRenderGroupScene(renderGroup, depth = 0, data = { index: 0, color: "
   }
 }
 
-// ../../node_modules/pixi.js/lib/index.mjs
+// ../../../node_modules/pixi.js/lib/index.mjs
 extensions.add(browserExt, webworkerExt);
 export {
   AbstractBitmapFont,

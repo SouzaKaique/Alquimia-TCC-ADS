@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../../../../../node_modules/pixi.js/lib/filters/init.mjs"],
+  "sourcesContent": ["import { extensions } from '../extensions/Extensions.mjs';\nimport { FilterPipe } from './FilterPipe.mjs';\nimport { FilterSystem } from './FilterSystem.mjs';\n\n\"use strict\";\nextensions.add(FilterSystem);\nextensions.add(FilterPipe);\n\n"],
+  "mappings": ";;;;;;;;;AAKA,WAAW,IAAI,YAAY;AAC3B,WAAW,IAAI,UAAU;",
+  "names": []
+}
