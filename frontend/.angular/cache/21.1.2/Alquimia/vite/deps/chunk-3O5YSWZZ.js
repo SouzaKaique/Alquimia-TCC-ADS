@@ -144,7 +144,8 @@ export {
   DomAdapter,
   PlatformLocation,
   LOCATION_INITIALIZED,
+  BrowserPlatformLocation,
   parseCookieValue,
   XhrFactory
 };
-//# sourceMappingURL=chunk-UVTWCDNM.js.map
+//# sourceMappingURL=chunk-3O5YSWZZ.js.map

@@ -1,2 +1,56 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import 'notyf/notyf.min.css';
+
+body {
+  background-image: url('/assets/IMG/TelaFundo.png');
+  font-family: 'Pixelify Sans', monospace;
+  background-size: cover;
+  background-position: center;
+}
+
+.titulo {
+  font-size: 70px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.input-pixel {
+  border: 2px solid #000 !important;
+  background: #d1d5d8 !important;
+  font-family: inherit;
+}
+
+.botao {
+  margin-top: 15px;
+  padding: 10px;
+  background: #cbd5e1;
+  border: 2px solid #000;
+  font-weight: bold;
+  box-shadow: 3px 3px #2e2e2e;
+}
+
+.botao:hover {
+  background: #aebbc8;
+}
+
+.link-login {
+  font-size: 18px;
+  margin-top: 10px;
+  display: block;
+  color: #000;
+}
+
+.icone-usuario {
+  width: 90px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.link-auth {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  margin-top: 10px;
+  font-size: 18px;
+}

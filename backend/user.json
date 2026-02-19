@@ -2,5 +2,9 @@
   {
     "usuario": "admin",
     "senha": "$2b$12$TdeO7NIvdrAKYs9ORnOuL.Xu1x1ZnlaoDqEMgM.dwa72GwYYYwraW"
+  },
+  {
+    "usuario": "vi",
+    "senha": "$2b$12$tsP3CIwfd0mvDBEwoI4FfuXjWxvXkxSp5ycRP4/R/JxGpHAWtha.2"
   }
 ]

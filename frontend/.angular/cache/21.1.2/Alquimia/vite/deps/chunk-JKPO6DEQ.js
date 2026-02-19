@@ -1,8 +1,4 @@
 import {
-  DefaultBatcher,
-  STENCIL_MODES
-} from "./chunk-DP73QS47.js";
-import {
   CanvasSource,
   Container,
   Filter,
@@ -19,6 +15,10 @@ import {
   getLocalBounds,
   multiplyColors
 } from "./chunk-26XH5DGF.js";
+import {
+  DefaultBatcher,
+  STENCIL_MODES
+} from "./chunk-DP73QS47.js";
 import {
   BigPool,
   BindGroup,
@@ -3744,4 +3744,4 @@ export {
   isRenderingToScreen,
   RenderTargetSystem
 };
-//# sourceMappingURL=chunk-ZR5ILELT.js.map
+//# sourceMappingURL=chunk-JKPO6DEQ.js.map

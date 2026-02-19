@@ -1,15 +1,20 @@
 import { Component, AfterViewInit, OnDestroy } from '@angular/core';
 import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
+
 
 import * as PIXI from 'pixi.js';
 import { Notyf } from 'notyf';
 
 @Component({
   selector: 'app-lab',
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './lab.html',
   styleUrls: ['./lab.css'],
 })
+
 export class LabComponent implements AfterViewInit, OnDestroy {
   private app!: PIXI.Application;
   private liquido!: PIXI.Graphics;

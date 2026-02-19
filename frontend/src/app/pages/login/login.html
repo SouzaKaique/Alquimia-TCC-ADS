@@ -2,34 +2,18 @@
 
   <h1 class="titulo">ENTRAR</h1>
 
-  <img
-    src="/assets/IMG/User.png"
-    class="icone"
-    alt="Ícone de Usuário"
-  />
+  <img src="assets/IMG/User.png" class="icone-usuario" alt="Ícone de Usuário" />
 
   <form (ngSubmit)="login()" #formEl>
 
     <div class="mb-2">
-      <input
-        type="text"
-        class="form-control input-pixel"
-        placeholder="Usuário"
-        name="usuario"
-        [(ngModel)]="usuario"
-        required
-      />
+      <input type="text" class="form-control input-pixel" placeholder="Usuário" name="usuario" [(ngModel)]="usuario"
+        required />
     </div>
 
     <div class="mb-2">
-      <input
-        type="password"
-        class="form-control input-pixel"
-        placeholder="Senha"
-        name="senha"
-        [(ngModel)]="senha"
-        required
-      />
+      <input type="password" class="form-control input-pixel" placeholder="Senha" name="senha" [(ngModel)]="senha"
+        required />
     </div>
 
     <button type="submit" class="botao w-100">
@@ -38,7 +22,7 @@
 
   </form>
 
-  <a routerLink="/registro" class="link">
+  <a routerLink="/registro" class="link-auth">
     Não possui conta? Registrar
   </a>
 

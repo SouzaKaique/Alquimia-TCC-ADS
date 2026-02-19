@@ -15,8 +15,8 @@ api_bp = Blueprint("api", __name__)
 bcrypt = Bcrypt()
 
 # ---------- AUTH ----------
-@api_bp.route("/register", methods=["POST"])
-def register():
+@api_bp.route("/registro", methods=["POST"])
+def registro():
     data = request.get_json() or {}
     usuario = data.get("usuario")
     senha = data.get("senha")

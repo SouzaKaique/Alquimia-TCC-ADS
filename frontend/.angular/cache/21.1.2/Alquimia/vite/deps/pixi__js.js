@@ -1,4 +1,48 @@
 import {
+  AccessibilitySystem,
+  CanvasObserver,
+  EventBoundary,
+  EventSystem,
+  EventsTicker,
+  FederatedContainer,
+  FederatedEvent,
+  FederatedMouseEvent,
+  FederatedPointerEvent,
+  FederatedWheelEvent,
+  accessibilityTarget,
+  isMobile
+} from "./chunk-IDNXEFWF.js";
+import {
+  AlphaMask,
+  ColorMask,
+  FilterPipe,
+  FilterSystem,
+  LoaderParserPriority,
+  PassthroughFilter,
+  Resolver,
+  Spritesheet,
+  StencilMask,
+  Triangle,
+  VideoSource,
+  addMaskBounds,
+  addMaskLocalBounds,
+  autoDetectSource,
+  copySearchParams,
+  createStringVariations,
+  detectVideoAlphaMode,
+  fragment,
+  getGlobalRenderableBounds,
+  getUrlExtension,
+  isSingleItem,
+  path,
+  pointInTriangle,
+  resourceToTexture,
+  source,
+  spritesheetAsset,
+  textureFrom,
+  vertex
+} from "./chunk-DVBCBV3B.js";
+import {
   BindGroupSystem,
   GPUTextureGpuData,
   GpuBatchAdaptor,
@@ -34,7 +78,7 @@ import {
   gpuUploadCompressedTextureResource,
   gpuUploadImageResource,
   gpuUploadVideoResource
-} from "./chunk-DWMO4GJJ.js";
+} from "./chunk-L53OUZBF.js";
 import {
   BUFFER_TYPE,
   GL_FORMATS,
@@ -101,7 +145,7 @@ import {
   scaleModeToGlFilter,
   unpremultiplyAlpha,
   wrapModeToGlAddress
-} from "./chunk-5OGTKIFI.js";
+} from "./chunk-AR7P32GS.js";
 import {
   BufferResource,
   GpuStencilModesToPixi,
@@ -116,7 +160,7 @@ import {
   uboSyncFunctionsSTD40,
   uboSyncFunctionsWGSL,
   uniformParsers
-} from "./chunk-OFJS47PC.js";
+} from "./chunk-OIKSU3FG.js";
 import {
   CanvasBatchAdaptor,
   CanvasColorMaskPipe,
@@ -136,7 +180,7 @@ import {
   canUseNewCanvasBlendModes,
   canvasUtils,
   mapCanvasBlendModesToPixi
-} from "./chunk-RGKOJ7YY.js";
+} from "./chunk-STOAFSJE.js";
 import {
   AbstractRenderer,
   AlphaMaskPipe,
@@ -192,7 +236,52 @@ import {
   updateTransformAndChildren,
   validateRenderables,
   vertex as vertex2
-} from "./chunk-ZR5ILELT.js";
+} from "./chunk-JKPO6DEQ.js";
+import {
+  CanvasSource,
+  Container,
+  Filter,
+  FilterEffect,
+  MaskEffectManager,
+  MaskEffectManagerClass,
+  ObservablePoint,
+  RenderGroup,
+  Sprite,
+  State,
+  TexturePool,
+  TexturePoolClass,
+  Ticker,
+  TickerListener,
+  UPDATE_BLEND,
+  UPDATE_COLOR,
+  UPDATE_PRIORITY,
+  UPDATE_TRANSFORM,
+  UPDATE_VISIBLE,
+  ViewContainer,
+  assignWithIgnore,
+  bgr2rgb,
+  boundsPool,
+  cacheAsTextureMixin,
+  checkChildrenDidChange,
+  childrenHelperMixin,
+  collectRenderablesMixin,
+  cullingMixin,
+  effectsMixin,
+  findMixin,
+  getFastGlobalBoundsMixin,
+  getGlobalBounds,
+  getGlobalMixin,
+  getLocalBounds,
+  matrixPool,
+  measureMixin,
+  multiplyColors,
+  onRenderMixin,
+  removeItems,
+  sortMixin,
+  toLocalGlobalMixin,
+  updateQuadBounds,
+  updateTransformBackwards
+} from "./chunk-26XH5DGF.js";
 import {
   AbstractBitmapFont,
   BREAKING_SPACES,
@@ -225,7 +314,11 @@ import {
   trimRight,
   wordWrap,
   wordWrapTaggedLines
-} from "./chunk-HUWY4LEB.js";
+} from "./chunk-BU42ICEK.js";
+import {
+  Cache,
+  convertToList
+} from "./chunk-JRCP5MII.js";
 import {
   CanvasPool,
   CanvasPoolClass
@@ -279,7 +372,15 @@ import {
   toStrokeStyle,
   transformVertices,
   triangulateWithHoles
-} from "./chunk-5QCB3F74.js";
+} from "./chunk-RJJMJADS.js";
+import {
+  Circle,
+  Ellipse,
+  ImageSource,
+  Polygon,
+  RoundedRectangle,
+  squaredDistanceToLineSegment
+} from "./chunk-OQVIRC5O.js";
 import {
   getTextureBatchBindGroup
 } from "./chunk-AK52TMGH.js";
@@ -323,107 +424,6 @@ import {
   vertexGPUTemplate,
   vertexGlTemplate
 } from "./chunk-DP73QS47.js";
-import {
-  AccessibilitySystem,
-  CanvasObserver,
-  EventBoundary,
-  EventSystem,
-  EventsTicker,
-  FederatedContainer,
-  FederatedEvent,
-  FederatedMouseEvent,
-  FederatedPointerEvent,
-  FederatedWheelEvent,
-  accessibilityTarget,
-  isMobile
-} from "./chunk-IDNXEFWF.js";
-import {
-  AlphaMask,
-  ColorMask,
-  FilterPipe,
-  FilterSystem,
-  LoaderParserPriority,
-  PassthroughFilter,
-  Resolver,
-  Spritesheet,
-  StencilMask,
-  Triangle,
-  VideoSource,
-  addMaskBounds,
-  addMaskLocalBounds,
-  autoDetectSource,
-  copySearchParams,
-  createStringVariations,
-  detectVideoAlphaMode,
-  fragment,
-  getGlobalRenderableBounds,
-  getUrlExtension,
-  isSingleItem,
-  path,
-  pointInTriangle,
-  resourceToTexture,
-  source,
-  spritesheetAsset,
-  textureFrom,
-  vertex
-} from "./chunk-DVBCBV3B.js";
-import {
-  CanvasSource,
-  Container,
-  Filter,
-  FilterEffect,
-  MaskEffectManager,
-  MaskEffectManagerClass,
-  ObservablePoint,
-  RenderGroup,
-  Sprite,
-  State,
-  TexturePool,
-  TexturePoolClass,
-  Ticker,
-  TickerListener,
-  UPDATE_BLEND,
-  UPDATE_COLOR,
-  UPDATE_PRIORITY,
-  UPDATE_TRANSFORM,
-  UPDATE_VISIBLE,
-  ViewContainer,
-  assignWithIgnore,
-  bgr2rgb,
-  boundsPool,
-  cacheAsTextureMixin,
-  checkChildrenDidChange,
-  childrenHelperMixin,
-  collectRenderablesMixin,
-  cullingMixin,
-  effectsMixin,
-  findMixin,
-  getFastGlobalBoundsMixin,
-  getGlobalBounds,
-  getGlobalMixin,
-  getLocalBounds,
-  matrixPool,
-  measureMixin,
-  multiplyColors,
-  onRenderMixin,
-  removeItems,
-  sortMixin,
-  toLocalGlobalMixin,
-  updateQuadBounds,
-  updateTransformBackwards
-} from "./chunk-26XH5DGF.js";
-import {
-  Cache,
-  convertToList
-} from "./chunk-JRCP5MII.js";
-import {
-  Circle,
-  Ellipse,
-  ImageSource,
-  Polygon,
-  RoundedRectangle,
-  squaredDistanceToLineSegment
-} from "./chunk-OQVIRC5O.js";
 import {
   BigPool,
   BindGroup,
@@ -6427,19 +6427,19 @@ async function autoDetectRenderer(options) {
   for (let i = 0; i < preferredOrder.length; i++) {
     const rendererType = preferredOrder[i];
     if (rendererType === "webgpu" && await isWebGPUSupported()) {
-      const { WebGPURenderer: WebGPURenderer2 } = await import("./WebGPURenderer-OEIFVQAP.js");
+      const { WebGPURenderer: WebGPURenderer2 } = await import("./WebGPURenderer-PSIFFVGA.js");
       RendererClass = WebGPURenderer2;
       finalOptions = __spreadValues(__spreadValues({}, options), options.webgpu);
       break;
     } else if (rendererType === "webgl" && isWebGLSupported(
       options.failIfMajorPerformanceCaveat ?? AbstractRenderer.defaultOptions.failIfMajorPerformanceCaveat
     )) {
-      const { WebGLRenderer: WebGLRenderer2 } = await import("./WebGLRenderer-VFHB7YN6.js");
+      const { WebGLRenderer: WebGLRenderer2 } = await import("./WebGLRenderer-FDCH5QPS.js");
       RendererClass = WebGLRenderer2;
       finalOptions = __spreadValues(__spreadValues({}, options), options.webgl);
       break;
     } else if (rendererType === "canvas") {
-      const { CanvasRenderer: CanvasRenderer2 } = await import("./CanvasRenderer-EBF7VXFY.js");
+      const { CanvasRenderer: CanvasRenderer2 } = await import("./CanvasRenderer-3YL2VX2E.js");
       RendererClass = CanvasRenderer2;
       finalOptions = __spreadValues(__spreadValues({}, options), options.canvasOptions);
       break;
@@ -7004,7 +7004,7 @@ var loadBitmapFont = {
     }
     const [loadedTextures, { BitmapFont: BitmapFont2 }] = await Promise.all([
       loader.load(textureUrls),
-      import("./BitmapFont-X6U3Q3G4.js")
+      import("./BitmapFont-WDEXMC2F.js")
     ]);
     const textures = textureUrls.map((url) => loadedTextures[url.src]);
     const bitmapFont = new BitmapFont2({

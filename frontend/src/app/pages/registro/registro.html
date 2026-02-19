@@ -1,60 +1,34 @@
 <app-auth-layout>
 
-  <div class="caixa-auth col-12 col-sm-8 col-md-6 col-lg-4">
+  <h1 class="titulo">REGISTRAR</h1>
 
-    <h1 class="titulo">REGISTRAR</h1>
+  <img src="assets/IMG/User.png" class="icone-usuario" alt="Ícone de Usuário" />
 
-    <img
-      src="assets/IMG/user.png"
-      class="icone-usuario"
-      alt="Ícone de Usuário"
-    />
+  <form (ngSubmit)="registrar()" #formEl>
 
-    <form (ngSubmit)="registrar()" #form="ngForm">
+    <div class="mb-2">
+      <input type="text" class="form-control input-pixel" placeholder="Usuário" name="usuario" [(ngModel)]="usuario"
+        required />
+    </div>
 
-      <div class="mb-2">
-        <input
-          type="text"
-          class="form-control input-pixel"
-          placeholder="Usuário"
-          name="usuario"
-          [(ngModel)]="usuario"
-          required
-        />
-      </div>
+    <div class="mb-2">
+      <input type="password" class="form-control input-pixel" placeholder="Senha" name="senha" [(ngModel)]="senha"
+        required />
+    </div>
 
-      <div class="mb-2">
-        <input
-          type="password"
-          class="form-control input-pixel"
-          placeholder="Senha"
-          name="senha"
-          [(ngModel)]="senha"
-          required
-        />
-      </div>
+    <div class="mb-2">
+      <input type="password" class="form-control input-pixel" placeholder="Confirmar senha" name="confirmar"
+        [(ngModel)]="confirmar" required />
+    </div>
 
-      <div class="mb-2">
-        <input
-          type="password"
-          class="form-control input-pixel"
-          placeholder="Confirmar senha"
-          name="confirmar"
-          [(ngModel)]="confirmar"
-          required
-        />
-      </div>
+    <button type="submit" class="botao w-100">
+      Registrar
+    </button>
 
-      <button type="submit" class="botao w-100">
-        Registrar
-      </button>
+  </form>
 
-    </form>
-
-    <a routerLink="/login" class="link-auth">
-      Já possui conta? Login
-    </a>
-
-  </div>
+  <a routerLink="/login" class="link-auth">
+    Já possui conta? Login
+  </a>
 
 </app-auth-layout>

@@ -1,6 +1,6 @@
 import {
   unsafeEvalSupported
-} from "./chunk-ZR5ILELT.js";
+} from "./chunk-JKPO6DEQ.js";
 import {
   STENCIL_MODES
 } from "./chunk-DP73QS47.js";
@@ -623,4 +623,4 @@ export {
   ensureAttributes,
   GpuStencilModesToPixi
 };
-//# sourceMappingURL=chunk-OFJS47PC.js.map
+//# sourceMappingURL=chunk-OIKSU3FG.js.map
